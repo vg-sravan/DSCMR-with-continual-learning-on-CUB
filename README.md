@@ -22,7 +22,7 @@ Step 3: Inside the main directory after step 1 and 2, type
         >> python main.py
         
 Make sure to store the output for easier access.
-Wait for the code to complete and results can be seen in Results folder(created dynamically inside code).
+Wait for the code to complete and results can be seen in Results folder(created dynamically).
 
 Any doubts ?? 
 ping me at vg.sravan@gmail.com
