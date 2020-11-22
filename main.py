@@ -120,7 +120,7 @@ if __name__ == '__main__':
         plt.title(f'mAP for testing data of dataset{plt_dataset} vs timestamp')
         plt.plot(range(int(plt_dataset), num_tasks+1), plt_vals)
         plt.xlabel(f"dataset timestamp")
-        plt.ylabel(f"Average mean Average Precision")
+        plt.ylabel(f"Text to Image mAP")
         plt.xticks(np.arange(1, num_tasks+1, 1.0))
         plt.savefig(f"../Results/plots/mAP_{plt_dataset}.png")
         plt.close()
