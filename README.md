@@ -6,10 +6,8 @@ Extract and place it with main directory.
 
 Data is arranged in the following way.
 
-Data  ------------> changed_data -------> preprocessed_data
-
-      ------------> images (images of CUB)
-      
+Data  ------------> changed_data -------> preprocessed_data\n
+      ------------> images (images of CUB)\n
       ------------> texts (preprocessed char-CNN-RNN text embeddings for birds from https://github.com/hanzhanggit/StackGAN/tree/master/Data)
       
 If there is some problem in arrangement, change the path variables accordingly
