@@ -1,6 +1,6 @@
 # DSCMR-with-continual-learning-on-CUB
 
-Download the data with embeddings from 
+Download the data with embeddings from https://iitkgpacin-my.sharepoint.com/:u:/g/personal/vg_sravan_iitkgp_ac_in/ETNLWfd1ZTlPiNKGwcTfVowB6yYpk5Uq7fqB71Xu8nD_5g?e=O6NOdM
 
 Extract and place it with main directory.
 
