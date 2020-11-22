@@ -1,0 +1,3904 @@
+PyTorch Version:  1.5.0
+Torchvision Version:  0.6.0a0+82fd1c8
+Datasets creating.........
+split_boundaries: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
+{'1': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], '2': [11, 12, 13, 14, 15, 16, 17, 18, 19, 20], '3': [21, 22, 23, 24, 25, 26, 27, 28, 29, 30], '4': [31, 32, 33, 34, 35, 36, 37, 38, 39, 40], '5': [41, 42, 43, 44, 45, 46, 47, 48, 49, 50], '6': [51, 52, 53, 54, 55, 56, 57, 58, 59, 60], '7': [61, 62, 63, 64, 65, 66, 67, 68, 69, 70], '8': [71, 72, 73, 74, 75, 76, 77, 78, 79, 80], '9': [81, 82, 83, 84, 85, 86, 87, 88, 89, 90], '10': [91, 92, 93, 94, 95, 96, 97, 98, 99, 100], '11': [101, 102, 103, 104, 105, 106, 107, 108, 109, 110], '12': [111, 112, 113, 114, 115, 116, 117, 118, 119, 120], '13': [121, 122, 123, 124, 125, 126, 127, 128, 129, 130], '14': [131, 132, 133, 134, 135, 136, 137, 138, 139, 140], '15': [141, 142, 143, 144, 145, 146, 147, 148, 149, 150], '16': [151, 152, 153, 154, 155, 156, 157, 158, 159, 160], '17': [161, 162, 163, 164, 165, 166, 167, 168, 169, 170], '18': [171, 172, 173, 174, 175, 176, 177, 178, 179, 180], '19': [181, 182, 183, 184, 185, 186, 187, 188, 189, 190], '20': [191, 192, 193, 194, 195, 196, 197, 198, 199, 200]}
+Datasets created.........
+Getting parameters............
+Got parameters................
+Creating Model....... and setting up
+Created Model.......and setup
+..........................Training is beginning..............................
+Selected dataset for training is 1..........
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Training for dataset 1 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.02522935779816514 and Accuracy for txts = 0.01834862385321101 
+train Loss: 0.0429 Img2Txt: 0.2352  Txt2Img: 0.2065
+test
+Accuracy for imgs = 0.12264150943396226 and Accuracy for txts = 0.21698113207547168 
+test Loss: 0.0394 Img2Txt: 0.2445  Txt2Img: 0.2139
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.045871559633027525 and Accuracy for txts = 0.15137614678899083 
+train Loss: 0.0378 Img2Txt: 0.4134  Txt2Img: 0.3117
+test
+Accuracy for imgs = 0.3490566037735849 and Accuracy for txts = 0.4433962264150943 
+test Loss: 0.0352 Img2Txt: 0.4498  Txt2Img: 0.3422
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.2637614678899083 and Accuracy for txts = 0.30504587155963303 
+train Loss: 0.0345 Img2Txt: 0.4926  Txt2Img: 0.4643
+test
+Accuracy for imgs = 0.3773584905660377 and Accuracy for txts = 0.5094339622641509 
+test Loss: 0.0334 Img2Txt: 0.5342  Txt2Img: 0.4859
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.3279816513761468 and Accuracy for txts = 0.4334862385321101 
+train Loss: 0.0326 Img2Txt: 0.5055  Txt2Img: 0.5270
+test
+Accuracy for imgs = 0.4245283018867924 and Accuracy for txts = 0.5283018867924528 
+test Loss: 0.0319 Img2Txt: 0.5623  Txt2Img: 0.5510
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.4357798165137615 and Accuracy for txts = 0.47247706422018354 
+train Loss: 0.0311 Img2Txt: 0.5582  Txt2Img: 0.5667
+test
+Accuracy for imgs = 0.5094339622641509 and Accuracy for txts = 0.6037735849056604 
+test Loss: 0.0309 Img2Txt: 0.5967  Txt2Img: 0.6096
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5 and Accuracy for txts = 0.5344036697247707 
+train Loss: 0.0297 Img2Txt: 0.5870  Txt2Img: 0.5955
+test
+Accuracy for imgs = 0.6320754716981132 and Accuracy for txts = 0.6226415094339622 
+test Loss: 0.0300 Img2Txt: 0.6302  Txt2Img: 0.6414
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6032110091743119 and Accuracy for txts = 0.5940366972477065 
+train Loss: 0.0284 Img2Txt: 0.5956  Txt2Img: 0.6251
+test
+Accuracy for imgs = 0.7075471698113207 and Accuracy for txts = 0.6320754716981132 
+test Loss: 0.0294 Img2Txt: 0.6429  Txt2Img: 0.6594
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.658256880733945 and Accuracy for txts = 0.6215596330275229 
+train Loss: 0.0271 Img2Txt: 0.6428  Txt2Img: 0.6640
+test
+Accuracy for imgs = 0.7547169811320754 and Accuracy for txts = 0.6698113207547169 
+test Loss: 0.0288 Img2Txt: 0.6749  Txt2Img: 0.6669
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7110091743119267 and Accuracy for txts = 0.6376146788990826 
+train Loss: 0.0259 Img2Txt: 0.6442  Txt2Img: 0.6727
+test
+Accuracy for imgs = 0.7452830188679245 and Accuracy for txts = 0.7169811320754716 
+test Loss: 0.0283 Img2Txt: 0.6841  Txt2Img: 0.6825
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.7889908256880734 and Accuracy for txts = 0.6834862385321101 
+train Loss: 0.0248 Img2Txt: 0.6721  Txt2Img: 0.6872
+test
+Accuracy for imgs = 0.7547169811320754 and Accuracy for txts = 0.7169811320754716 
+test Loss: 0.0279 Img2Txt: 0.7099  Txt2Img: 0.6872
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.834862385321101 and Accuracy for txts = 0.6903669724770642 
+train Loss: 0.0238 Img2Txt: 0.6732  Txt2Img: 0.6912
+test
+Accuracy for imgs = 0.7641509433962264 and Accuracy for txts = 0.7830188679245282 
+test Loss: 0.0269 Img2Txt: 0.7142  Txt2Img: 0.7113
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8646788990825689 and Accuracy for txts = 0.7201834862385321 
+train Loss: 0.0227 Img2Txt: 0.7044  Txt2Img: 0.7093
+test
+Accuracy for imgs = 0.7547169811320754 and Accuracy for txts = 0.7735849056603773 
+test Loss: 0.0268 Img2Txt: 0.7309  Txt2Img: 0.7175
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9036697247706422 and Accuracy for txts = 0.7224770642201835 
+train Loss: 0.0220 Img2Txt: 0.7058  Txt2Img: 0.7129
+test
+Accuracy for imgs = 0.7547169811320754 and Accuracy for txts = 0.8018867924528301 
+test Loss: 0.0267 Img2Txt: 0.7307  Txt2Img: 0.7291
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9151376146788991 and Accuracy for txts = 0.7293577981651377 
+train Loss: 0.0212 Img2Txt: 0.7232  Txt2Img: 0.7327
+test
+Accuracy for imgs = 0.7641509433962264 and Accuracy for txts = 0.7924528301886792 
+test Loss: 0.0256 Img2Txt: 0.7355  Txt2Img: 0.7387
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.926605504587156 and Accuracy for txts = 0.7454128440366973 
+train Loss: 0.0207 Img2Txt: 0.6992  Txt2Img: 0.7344
+test
+Accuracy for imgs = 0.7358490566037735 and Accuracy for txts = 0.7924528301886792 
+test Loss: 0.0260 Img2Txt: 0.7222  Txt2Img: 0.7322
+
+Training complete in 24m 57s
+Best average mAP: 0.737119
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.7222  Txt2Img: 0.7322 Avg_mAP: 0.7272
+Testing Done...............
+Selected dataset for training is 2..........
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Training for dataset 2 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.06100217864923748 and Accuracy for txts = 0.032679738562091505 
+train Loss: 0.0395 Img2Txt: 0.3464  Txt2Img: 0.3915
+test
+Accuracy for imgs = 0.2920353982300885 and Accuracy for txts = 0.4336283185840708 
+test Loss: 0.0331 Img2Txt: 0.3616  Txt2Img: 0.4179
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.23747276688453162 and Accuracy for txts = 0.44662309368191727 
+train Loss: 0.0331 Img2Txt: 0.4386  Txt2Img: 0.4909
+test
+Accuracy for imgs = 0.49557522123893805 and Accuracy for txts = 0.6460176991150443 
+test Loss: 0.0297 Img2Txt: 0.4698  Txt2Img: 0.5103
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.3376906318082789 and Accuracy for txts = 0.6122004357298475 
+train Loss: 0.0303 Img2Txt: 0.5530  Txt2Img: 0.5887
+test
+Accuracy for imgs = 0.6017699115044248 and Accuracy for txts = 0.7699115044247787 
+test Loss: 0.0274 Img2Txt: 0.5584  Txt2Img: 0.5999
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.4596949891067539 and Accuracy for txts = 0.7145969498910676 
+train Loss: 0.0283 Img2Txt: 0.6135  Txt2Img: 0.6379
+test
+Accuracy for imgs = 0.6017699115044248 and Accuracy for txts = 0.8849557522123894 
+test Loss: 0.0258 Img2Txt: 0.6186  Txt2Img: 0.6541
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.5294117647058824 and Accuracy for txts = 0.8191721132897605 
+train Loss: 0.0265 Img2Txt: 0.6581  Txt2Img: 0.6775
+test
+Accuracy for imgs = 0.6548672566371682 and Accuracy for txts = 0.9203539823008849 
+test Loss: 0.0245 Img2Txt: 0.6639  Txt2Img: 0.7070
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.599128540305011 and Accuracy for txts = 0.8692810457516341 
+train Loss: 0.0246 Img2Txt: 0.6800  Txt2Img: 0.7128
+test
+Accuracy for imgs = 0.6548672566371682 and Accuracy for txts = 0.9292035398230089 
+test Loss: 0.0236 Img2Txt: 0.6841  Txt2Img: 0.7358
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6448801742919391 and Accuracy for txts = 0.8954248366013072 
+train Loss: 0.0232 Img2Txt: 0.6874  Txt2Img: 0.7282
+test
+Accuracy for imgs = 0.6814159292035398 and Accuracy for txts = 0.9292035398230089 
+test Loss: 0.0229 Img2Txt: 0.6985  Txt2Img: 0.7588
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.701525054466231 and Accuracy for txts = 0.9106753812636167 
+train Loss: 0.0218 Img2Txt: 0.7268  Txt2Img: 0.7590
+test
+Accuracy for imgs = 0.6902654867256637 and Accuracy for txts = 0.9292035398230089 
+test Loss: 0.0217 Img2Txt: 0.7210  Txt2Img: 0.7884
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7712418300653595 and Accuracy for txts = 0.9215686274509804 
+train Loss: 0.0203 Img2Txt: 0.7123  Txt2Img: 0.7728
+test
+Accuracy for imgs = 0.6991150442477876 and Accuracy for txts = 0.9469026548672567 
+test Loss: 0.0209 Img2Txt: 0.7321  Txt2Img: 0.8145
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.803921568627451 and Accuracy for txts = 0.925925925925926 
+train Loss: 0.0191 Img2Txt: 0.7486  Txt2Img: 0.7880
+test
+Accuracy for imgs = 0.7433628318584071 and Accuracy for txts = 0.9469026548672567 
+test Loss: 0.0204 Img2Txt: 0.7487  Txt2Img: 0.8208
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.8649237472766885 and Accuracy for txts = 0.9368191721132898 
+train Loss: 0.0179 Img2Txt: 0.7766  Txt2Img: 0.8064
+test
+Accuracy for imgs = 0.7610619469026548 and Accuracy for txts = 0.9557522123893805 
+test Loss: 0.0197 Img2Txt: 0.7603  Txt2Img: 0.8343
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.9106753812636167 and Accuracy for txts = 0.9411764705882354 
+train Loss: 0.0168 Img2Txt: 0.7853  Txt2Img: 0.8120
+test
+Accuracy for imgs = 0.7787610619469026 and Accuracy for txts = 0.9557522123893805 
+test Loss: 0.0197 Img2Txt: 0.7916  Txt2Img: 0.8464
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9150326797385622 and Accuracy for txts = 0.9455337690631809 
+train Loss: 0.0162 Img2Txt: 0.7615  Txt2Img: 0.8088
+test
+Accuracy for imgs = 0.7787610619469026 and Accuracy for txts = 0.9557522123893805 
+test Loss: 0.0192 Img2Txt: 0.8030  Txt2Img: 0.8517
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9433551198257082 and Accuracy for txts = 0.954248366013072 
+train Loss: 0.0154 Img2Txt: 0.7734  Txt2Img: 0.7984
+test
+Accuracy for imgs = 0.7787610619469026 and Accuracy for txts = 0.9646017699115044 
+test Loss: 0.0193 Img2Txt: 0.8054  Txt2Img: 0.8527
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9520697167755993 and Accuracy for txts = 0.9564270152505447 
+train Loss: 0.0150 Img2Txt: 0.7996  Txt2Img: 0.8422
+test
+Accuracy for imgs = 0.8053097345132744 and Accuracy for txts = 0.9646017699115044 
+test Loss: 0.0196 Img2Txt: 0.8320  Txt2Img: 0.8728
+
+Training complete in 27m 5s
+Best average mAP: 0.852388
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.4310  Txt2Img: 0.4102 Avg_mAP: 0.4206
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.8320  Txt2Img: 0.8728 Avg_mAP: 0.8524
+Testing Done...............
+Selected dataset for training is 3..........
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Training for dataset 3 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.08333333333333334 and Accuracy for txts = 0.05982905982905984 
+train Loss: 0.0384 Img2Txt: 0.2823  Txt2Img: 0.2740
+test
+Accuracy for imgs = 0.3076923076923077 and Accuracy for txts = 0.3076923076923077 
+test Loss: 0.0327 Img2Txt: 0.2988  Txt2Img: 0.2945
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.23076923076923078 and Accuracy for txts = 0.20085470085470086 
+train Loss: 0.0334 Img2Txt: 0.3807  Txt2Img: 0.3797
+test
+Accuracy for imgs = 0.38461538461538464 and Accuracy for txts = 0.46153846153846156 
+test Loss: 0.0305 Img2Txt: 0.3989  Txt2Img: 0.3973
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.3461538461538462 and Accuracy for txts = 0.32051282051282054 
+train Loss: 0.0314 Img2Txt: 0.4257  Txt2Img: 0.4176
+test
+Accuracy for imgs = 0.47008547008547014 and Accuracy for txts = 0.5470085470085471 
+test Loss: 0.0290 Img2Txt: 0.4521  Txt2Img: 0.4490
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.4444444444444445 and Accuracy for txts = 0.42521367521367526 
+train Loss: 0.0298 Img2Txt: 0.4453  Txt2Img: 0.4605
+test
+Accuracy for imgs = 0.4786324786324787 and Accuracy for txts = 0.5982905982905984 
+test Loss: 0.0278 Img2Txt: 0.4758  Txt2Img: 0.5043
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.5085470085470086 and Accuracy for txts = 0.4978632478632479 
+train Loss: 0.0284 Img2Txt: 0.4576  Txt2Img: 0.5224
+test
+Accuracy for imgs = 0.5299145299145299 and Accuracy for txts = 0.6581196581196582 
+test Loss: 0.0269 Img2Txt: 0.4981  Txt2Img: 0.5639
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.6047008547008548 and Accuracy for txts = 0.5448717948717949 
+train Loss: 0.0271 Img2Txt: 0.4779  Txt2Img: 0.5523
+test
+Accuracy for imgs = 0.5811965811965812 and Accuracy for txts = 0.6581196581196582 
+test Loss: 0.0261 Img2Txt: 0.5263  Txt2Img: 0.5990
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6474358974358975 and Accuracy for txts = 0.561965811965812 
+train Loss: 0.0259 Img2Txt: 0.5135  Txt2Img: 0.5734
+test
+Accuracy for imgs = 0.6153846153846154 and Accuracy for txts = 0.6666666666666667 
+test Loss: 0.0261 Img2Txt: 0.5569  Txt2Img: 0.6080
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.702991452991453 and Accuracy for txts = 0.5811965811965812 
+train Loss: 0.0251 Img2Txt: 0.5568  Txt2Img: 0.5987
+test
+Accuracy for imgs = 0.6581196581196582 and Accuracy for txts = 0.6666666666666667 
+test Loss: 0.0251 Img2Txt: 0.5938  Txt2Img: 0.6222
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7905982905982907 and Accuracy for txts = 0.5918803418803419 
+train Loss: 0.0240 Img2Txt: 0.5775  Txt2Img: 0.5892
+test
+Accuracy for imgs = 0.6581196581196582 and Accuracy for txts = 0.6752136752136753 
+test Loss: 0.0244 Img2Txt: 0.6134  Txt2Img: 0.6286
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.8141025641025642 and Accuracy for txts = 0.6132478632478633 
+train Loss: 0.0230 Img2Txt: 0.5977  Txt2Img: 0.6264
+test
+Accuracy for imgs = 0.6666666666666667 and Accuracy for txts = 0.6666666666666667 
+test Loss: 0.0242 Img2Txt: 0.6264  Txt2Img: 0.6349
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.8247863247863249 and Accuracy for txts = 0.6217948717948718 
+train Loss: 0.0224 Img2Txt: 0.6054  Txt2Img: 0.6182
+test
+Accuracy for imgs = 0.7008547008547009 and Accuracy for txts = 0.6666666666666667 
+test Loss: 0.0240 Img2Txt: 0.6351  Txt2Img: 0.6396
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8803418803418804 and Accuracy for txts = 0.638888888888889 
+train Loss: 0.0216 Img2Txt: 0.6126  Txt2Img: 0.6284
+test
+Accuracy for imgs = 0.7094017094017094 and Accuracy for txts = 0.6666666666666667 
+test Loss: 0.0240 Img2Txt: 0.6362  Txt2Img: 0.6445
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9081196581196582 and Accuracy for txts = 0.6452991452991453 
+train Loss: 0.0210 Img2Txt: 0.6247  Txt2Img: 0.6329
+test
+Accuracy for imgs = 0.6923076923076924 and Accuracy for txts = 0.6666666666666667 
+test Loss: 0.0236 Img2Txt: 0.6400  Txt2Img: 0.6468
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9145299145299146 and Accuracy for txts = 0.6517094017094017 
+train Loss: 0.0208 Img2Txt: 0.6356  Txt2Img: 0.6294
+test
+Accuracy for imgs = 0.7179487179487181 and Accuracy for txts = 0.6581196581196582 
+test Loss: 0.0238 Img2Txt: 0.6492  Txt2Img: 0.6487
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.935897435897436 and Accuracy for txts = 0.6623931623931625 
+train Loss: 0.0198 Img2Txt: 0.6367  Txt2Img: 0.6368
+test
+Accuracy for imgs = 0.7179487179487181 and Accuracy for txts = 0.6495726495726496 
+test Loss: 0.0230 Img2Txt: 0.6585  Txt2Img: 0.6554
+
+Training complete in 27m 8s
+Best average mAP: 0.656978
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.4870  Txt2Img: 0.4980 Avg_mAP: 0.4925
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.6642  Txt2Img: 0.6531 Avg_mAP: 0.6587
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.6585  Txt2Img: 0.6554 Avg_mAP: 0.6570
+Testing Done...............
+Selected dataset for training is 4..........
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Training for dataset 4 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.07021276595744681 and Accuracy for txts = 0.02127659574468085 
+train Loss: 0.0379 Img2Txt: 0.2306  Txt2Img: 0.2182
+test
+Accuracy for imgs = 0.24369747899159663 and Accuracy for txts = 0.1680672268907563 
+test Loss: 0.0327 Img2Txt: 0.2479  Txt2Img: 0.2195
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.19148936170212766 and Accuracy for txts = 0.1276595744680851 
+train Loss: 0.0336 Img2Txt: 0.2906  Txt2Img: 0.2565
+test
+Accuracy for imgs = 0.31092436974789917 and Accuracy for txts = 0.3529411764705882 
+test Loss: 0.0309 Img2Txt: 0.3136  Txt2Img: 0.2702
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.3191489361702128 and Accuracy for txts = 0.3021276595744681 
+train Loss: 0.0318 Img2Txt: 0.3202  Txt2Img: 0.3423
+test
+Accuracy for imgs = 0.36134453781512604 and Accuracy for txts = 0.5042016806722689 
+test Loss: 0.0296 Img2Txt: 0.3487  Txt2Img: 0.3518
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.4340425531914894 and Accuracy for txts = 0.43829787234042555 
+train Loss: 0.0304 Img2Txt: 0.3567  Txt2Img: 0.3704
+test
+Accuracy for imgs = 0.4117647058823529 and Accuracy for txts = 0.5462184873949579 
+test Loss: 0.0287 Img2Txt: 0.3845  Txt2Img: 0.3914
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.5063829787234042 and Accuracy for txts = 0.5276595744680851 
+train Loss: 0.0290 Img2Txt: 0.3870  Txt2Img: 0.4038
+test
+Accuracy for imgs = 0.48739495798319327 and Accuracy for txts = 0.5630252100840336 
+test Loss: 0.0281 Img2Txt: 0.4161  Txt2Img: 0.4224
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5893617021276596 and Accuracy for txts = 0.5595744680851064 
+train Loss: 0.0277 Img2Txt: 0.4252  Txt2Img: 0.4312
+test
+Accuracy for imgs = 0.5210084033613445 and Accuracy for txts = 0.5714285714285714 
+test Loss: 0.0277 Img2Txt: 0.4563  Txt2Img: 0.4505
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6319148936170212 and Accuracy for txts = 0.5914893617021276 
+train Loss: 0.0266 Img2Txt: 0.4358  Txt2Img: 0.4445
+test
+Accuracy for imgs = 0.5630252100840336 and Accuracy for txts = 0.5546218487394958 
+test Loss: 0.0270 Img2Txt: 0.4731  Txt2Img: 0.4705
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.6851063829787234 and Accuracy for txts = 0.6042553191489362 
+train Loss: 0.0257 Img2Txt: 0.4691  Txt2Img: 0.4728
+test
+Accuracy for imgs = 0.5714285714285714 and Accuracy for txts = 0.5630252100840336 
+test Loss: 0.0269 Img2Txt: 0.4895  Txt2Img: 0.4761
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7425531914893617 and Accuracy for txts = 0.6170212765957447 
+train Loss: 0.0248 Img2Txt: 0.4694  Txt2Img: 0.4929
+test
+Accuracy for imgs = 0.6050420168067226 and Accuracy for txts = 0.5882352941176471 
+test Loss: 0.0263 Img2Txt: 0.5061  Txt2Img: 0.5011
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.8042553191489362 and Accuracy for txts = 0.625531914893617 
+train Loss: 0.0238 Img2Txt: 0.5031  Txt2Img: 0.5123
+test
+Accuracy for imgs = 0.6218487394957983 and Accuracy for txts = 0.5966386554621849 
+test Loss: 0.0262 Img2Txt: 0.5203  Txt2Img: 0.5105
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.8468085106382979 and Accuracy for txts = 0.6404255319148936 
+train Loss: 0.0229 Img2Txt: 0.5000  Txt2Img: 0.5066
+test
+Accuracy for imgs = 0.6386554621848739 and Accuracy for txts = 0.6134453781512604 
+test Loss: 0.0260 Img2Txt: 0.5168  Txt2Img: 0.5107
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8872340425531915 and Accuracy for txts = 0.6574468085106383 
+train Loss: 0.0221 Img2Txt: 0.4875  Txt2Img: 0.5024
+test
+Accuracy for imgs = 0.6134453781512604 and Accuracy for txts = 0.6218487394957983 
+test Loss: 0.0260 Img2Txt: 0.5118  Txt2Img: 0.5167
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8936170212765958 and Accuracy for txts = 0.6617021276595745 
+train Loss: 0.0215 Img2Txt: 0.5176  Txt2Img: 0.5307
+test
+Accuracy for imgs = 0.6302521008403361 and Accuracy for txts = 0.6218487394957983 
+test Loss: 0.0259 Img2Txt: 0.5303  Txt2Img: 0.5278
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9255319148936171 and Accuracy for txts = 0.6659574468085107 
+train Loss: 0.0207 Img2Txt: 0.5171  Txt2Img: 0.5342
+test
+Accuracy for imgs = 0.6554621848739496 and Accuracy for txts = 0.6218487394957983 
+test Loss: 0.0264 Img2Txt: 0.5348  Txt2Img: 0.5362
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9446808510638298 and Accuracy for txts = 0.6872340425531915 
+train Loss: 0.0202 Img2Txt: 0.5260  Txt2Img: 0.5234
+test
+Accuracy for imgs = 0.6302521008403361 and Accuracy for txts = 0.6386554621848739 
+test Loss: 0.0254 Img2Txt: 0.5419  Txt2Img: 0.5323
+
+Training complete in 28m 8s
+Best average mAP: 0.537091
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2935  Txt2Img: 0.2689 Avg_mAP: 0.2812
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.5001  Txt2Img: 0.4390 Avg_mAP: 0.4696
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.4366  Txt2Img: 0.4205 Avg_mAP: 0.4286
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.5419  Txt2Img: 0.5323 Avg_mAP: 0.5371
+Testing Done...............
+Selected dataset for training is 5..........
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Training for dataset 5 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.07515657620041753 and Accuracy for txts = 0.0939457202505219 
+train Loss: 0.0377 Img2Txt: 0.4074  Txt2Img: 0.3550
+test
+Accuracy for imgs = 0.43333333333333335 and Accuracy for txts = 0.3416666666666667 
+test Loss: 0.0299 Img2Txt: 0.4559  Txt2Img: 0.4145
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.3402922755741127 and Accuracy for txts = 0.3277661795407098 
+train Loss: 0.0308 Img2Txt: 0.5450  Txt2Img: 0.5285
+test
+Accuracy for imgs = 0.6 and Accuracy for txts = 0.5666666666666667 
+test Loss: 0.0270 Img2Txt: 0.5714  Txt2Img: 0.5443
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.5281837160751566 and Accuracy for txts = 0.5845511482254697 
+train Loss: 0.0277 Img2Txt: 0.6332  Txt2Img: 0.6075
+test
+Accuracy for imgs = 0.6833333333333333 and Accuracy for txts = 0.7416666666666667 
+test Loss: 0.0252 Img2Txt: 0.6728  Txt2Img: 0.6370
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.6346555323590813 and Accuracy for txts = 0.7223382045929018 
+train Loss: 0.0252 Img2Txt: 0.7268  Txt2Img: 0.7014
+test
+Accuracy for imgs = 0.7833333333333333 and Accuracy for txts = 0.8166666666666667 
+test Loss: 0.0233 Img2Txt: 0.7537  Txt2Img: 0.7329
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.7098121085594988 and Accuracy for txts = 0.8183716075156575 
+train Loss: 0.0229 Img2Txt: 0.7898  Txt2Img: 0.7687
+test
+Accuracy for imgs = 0.8083333333333333 and Accuracy for txts = 0.8666666666666667 
+test Loss: 0.0219 Img2Txt: 0.8102  Txt2Img: 0.7919
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.7954070981210856 and Accuracy for txts = 0.8872651356993736 
+train Loss: 0.0211 Img2Txt: 0.8213  Txt2Img: 0.7992
+test
+Accuracy for imgs = 0.8166666666666667 and Accuracy for txts = 0.8916666666666666 
+test Loss: 0.0213 Img2Txt: 0.8335  Txt2Img: 0.8260
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.8288100208768266 and Accuracy for txts = 0.9081419624217119 
+train Loss: 0.0195 Img2Txt: 0.8303  Txt2Img: 0.8319
+test
+Accuracy for imgs = 0.8 and Accuracy for txts = 0.9416666666666667 
+test Loss: 0.0207 Img2Txt: 0.8380  Txt2Img: 0.8501
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.9018789144050103 and Accuracy for txts = 0.9269311064718162 
+train Loss: 0.0179 Img2Txt: 0.8309  Txt2Img: 0.8540
+test
+Accuracy for imgs = 0.825 and Accuracy for txts = 0.9416666666666667 
+test Loss: 0.0201 Img2Txt: 0.8467  Txt2Img: 0.8768
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.8997912317327765 and Accuracy for txts = 0.9331941544885176 
+train Loss: 0.0169 Img2Txt: 0.8444  Txt2Img: 0.8710
+test
+Accuracy for imgs = 0.85 and Accuracy for txts = 0.975 
+test Loss: 0.0193 Img2Txt: 0.8678  Txt2Img: 0.8937
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.9519832985386221 and Accuracy for txts = 0.9436325678496867 
+train Loss: 0.0157 Img2Txt: 0.8450  Txt2Img: 0.8881
+test
+Accuracy for imgs = 0.8583333333333333 and Accuracy for txts = 0.975 
+test Loss: 0.0182 Img2Txt: 0.8768  Txt2Img: 0.9119
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.9665970772442588 and Accuracy for txts = 0.9415448851774529 
+train Loss: 0.0147 Img2Txt: 0.8800  Txt2Img: 0.8968
+test
+Accuracy for imgs = 0.875 and Accuracy for txts = 0.975 
+test Loss: 0.0173 Img2Txt: 0.8875  Txt2Img: 0.9155
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.987473903966597 and Accuracy for txts = 0.9478079331941544 
+train Loss: 0.0140 Img2Txt: 0.8706  Txt2Img: 0.9098
+test
+Accuracy for imgs = 0.9083333333333333 and Accuracy for txts = 0.975 
+test Loss: 0.0179 Img2Txt: 0.8867  Txt2Img: 0.9305
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9853862212943632 and Accuracy for txts = 0.9478079331941544 
+train Loss: 0.0133 Img2Txt: 0.8703  Txt2Img: 0.9145
+test
+Accuracy for imgs = 0.8666666666666667 and Accuracy for txts = 0.975 
+test Loss: 0.0186 Img2Txt: 0.8843  Txt2Img: 0.9214
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9895615866388308 and Accuracy for txts = 0.9498956158663883 
+train Loss: 0.0128 Img2Txt: 0.8594  Txt2Img: 0.9057
+test
+Accuracy for imgs = 0.8666666666666667 and Accuracy for txts = 0.975 
+test Loss: 0.0180 Img2Txt: 0.8966  Txt2Img: 0.9412
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9916492693110647 and Accuracy for txts = 0.9540709812108559 
+train Loss: 0.0127 Img2Txt: 0.8552  Txt2Img: 0.9060
+test
+Accuracy for imgs = 0.85 and Accuracy for txts = 0.975 
+test Loss: 0.0173 Img2Txt: 0.8805  Txt2Img: 0.9336
+
+Training complete in 27m 36s
+Best average mAP: 0.918913
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.3864  Txt2Img: 0.3574 Avg_mAP: 0.3719
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.4314  Txt2Img: 0.3857 Avg_mAP: 0.4086
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3642  Txt2Img: 0.3664 Avg_mAP: 0.3653
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.3270  Txt2Img: 0.3665 Avg_mAP: 0.3467
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.8805  Txt2Img: 0.9336 Avg_mAP: 0.9071
+Testing Done...............
+Selected dataset for training is 6..........
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Training for dataset 6 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.0606694560669456 and Accuracy for txts = 0.0041841004184100415 
+train Loss: 0.0400 Img2Txt: 0.3890  Txt2Img: 0.4014
+test
+Accuracy for imgs = 0.3529411764705882 and Accuracy for txts = 0.21008403361344538 
+test Loss: 0.0319 Img2Txt: 0.4444  Txt2Img: 0.4285
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.2510460251046025 and Accuracy for txts = 0.26987447698744765 
+train Loss: 0.0312 Img2Txt: 0.4809  Txt2Img: 0.4499
+test
+Accuracy for imgs = 0.42857142857142855 and Accuracy for txts = 0.6386554621848739 
+test Loss: 0.0282 Img2Txt: 0.5312  Txt2Img: 0.4654
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.3912133891213389 and Accuracy for txts = 0.5815899581589957 
+train Loss: 0.0277 Img2Txt: 0.5882  Txt2Img: 0.5273
+test
+Accuracy for imgs = 0.5294117647058824 and Accuracy for txts = 0.8067226890756303 
+test Loss: 0.0265 Img2Txt: 0.6049  Txt2Img: 0.5289
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.5460251046025104 and Accuracy for txts = 0.7447698744769874 
+train Loss: 0.0255 Img2Txt: 0.6417  Txt2Img: 0.6068
+test
+Accuracy for imgs = 0.6218487394957983 and Accuracy for txts = 0.8067226890756303 
+test Loss: 0.0243 Img2Txt: 0.6687  Txt2Img: 0.6477
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.6380753138075314 and Accuracy for txts = 0.7949790794979079 
+train Loss: 0.0236 Img2Txt: 0.6758  Txt2Img: 0.7104
+test
+Accuracy for imgs = 0.6134453781512604 and Accuracy for txts = 0.8067226890756303 
+test Loss: 0.0234 Img2Txt: 0.6880  Txt2Img: 0.7177
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.6903765690376569 and Accuracy for txts = 0.8242677824267781 
+train Loss: 0.0218 Img2Txt: 0.6900  Txt2Img: 0.7373
+test
+Accuracy for imgs = 0.6554621848739496 and Accuracy for txts = 0.8151260504201681 
+test Loss: 0.0217 Img2Txt: 0.7066  Txt2Img: 0.7507
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.7447698744769874 and Accuracy for txts = 0.8472803347280334 
+train Loss: 0.0204 Img2Txt: 0.7235  Txt2Img: 0.7887
+test
+Accuracy for imgs = 0.6974789915966386 and Accuracy for txts = 0.8235294117647058 
+test Loss: 0.0221 Img2Txt: 0.7450  Txt2Img: 0.7914
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.8012552301255229 and Accuracy for txts = 0.8389121338912133 
+train Loss: 0.0192 Img2Txt: 0.7071  Txt2Img: 0.7652
+test
+Accuracy for imgs = 0.6890756302521008 and Accuracy for txts = 0.8319327731092436 
+test Loss: 0.0216 Img2Txt: 0.7396  Txt2Img: 0.7881
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.8723849372384936 and Accuracy for txts = 0.8451882845188283 
+train Loss: 0.0179 Img2Txt: 0.7612  Txt2Img: 0.8121
+test
+Accuracy for imgs = 0.7142857142857143 and Accuracy for txts = 0.8319327731092436 
+test Loss: 0.0216 Img2Txt: 0.7769  Txt2Img: 0.8207
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.8953974895397488 and Accuracy for txts = 0.8577405857740585 
+train Loss: 0.0170 Img2Txt: 0.7537  Txt2Img: 0.8035
+test
+Accuracy for imgs = 0.7563025210084033 and Accuracy for txts = 0.8319327731092436 
+test Loss: 0.0199 Img2Txt: 0.7881  Txt2Img: 0.8221
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.9163179916317991 and Accuracy for txts = 0.8619246861924685 
+train Loss: 0.0163 Img2Txt: 0.7858  Txt2Img: 0.8154
+test
+Accuracy for imgs = 0.7563025210084033 and Accuracy for txts = 0.8487394957983193 
+test Loss: 0.0198 Img2Txt: 0.8115  Txt2Img: 0.8300
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.9309623430962343 and Accuracy for txts = 0.8744769874476986 
+train Loss: 0.0155 Img2Txt: 0.7876  Txt2Img: 0.8149
+test
+Accuracy for imgs = 0.7731092436974789 and Accuracy for txts = 0.8403361344537815 
+test Loss: 0.0196 Img2Txt: 0.8149  Txt2Img: 0.8397
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9497907949790794 and Accuracy for txts = 0.8640167364016735 
+train Loss: 0.0154 Img2Txt: 0.7895  Txt2Img: 0.8289
+test
+Accuracy for imgs = 0.7899159663865546 and Accuracy for txts = 0.8487394957983193 
+test Loss: 0.0203 Img2Txt: 0.8098  Txt2Img: 0.8418
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9644351464435146 and Accuracy for txts = 0.8891213389121339 
+train Loss: 0.0143 Img2Txt: 0.7876  Txt2Img: 0.8169
+test
+Accuracy for imgs = 0.7815126050420168 and Accuracy for txts = 0.8403361344537815 
+test Loss: 0.0192 Img2Txt: 0.7964  Txt2Img: 0.8293
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9748953974895397 and Accuracy for txts = 0.8849372384937237 
+train Loss: 0.0142 Img2Txt: 0.7980  Txt2Img: 0.8339
+test
+Accuracy for imgs = 0.8403361344537815 and Accuracy for txts = 0.8571428571428571 
+test Loss: 0.0202 Img2Txt: 0.8254  Txt2Img: 0.8500
+
+Training complete in 28m 0s
+Best average mAP: 0.837708
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2771  Txt2Img: 0.2566 Avg_mAP: 0.2668
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.4145  Txt2Img: 0.4229 Avg_mAP: 0.4187
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3771  Txt2Img: 0.3517 Avg_mAP: 0.3644
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.3247  Txt2Img: 0.2663 Avg_mAP: 0.2955
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.5322  Txt2Img: 0.5055 Avg_mAP: 0.5189
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.8254  Txt2Img: 0.8500 Avg_mAP: 0.8377
+Testing Done...............
+Selected dataset for training is 7..........
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Training for dataset 7 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.029787234042553193 and Accuracy for txts = 0.012765957446808512 
+train Loss: 0.0383 Img2Txt: 0.2019  Txt2Img: 0.1812
+test
+Accuracy for imgs = 0.17094017094017094 and Accuracy for txts = 0.23931623931623935 
+test Loss: 0.0332 Img2Txt: 0.2484  Txt2Img: 0.1985
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.16595744680851063 and Accuracy for txts = 0.24468085106382978 
+train Loss: 0.0326 Img2Txt: 0.2443  Txt2Img: 0.2138
+test
+Accuracy for imgs = 0.3076923076923077 and Accuracy for txts = 0.46153846153846156 
+test Loss: 0.0312 Img2Txt: 0.3008  Txt2Img: 0.2246
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.31063829787234043 and Accuracy for txts = 0.39787234042553193 
+train Loss: 0.0309 Img2Txt: 0.2943  Txt2Img: 0.3371
+test
+Accuracy for imgs = 0.4786324786324787 and Accuracy for txts = 0.5042735042735044 
+test Loss: 0.0295 Img2Txt: 0.3372  Txt2Img: 0.3601
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.39361702127659576 and Accuracy for txts = 0.451063829787234 
+train Loss: 0.0293 Img2Txt: 0.3209  Txt2Img: 0.4238
+test
+Accuracy for imgs = 0.4017094017094017 and Accuracy for txts = 0.5384615384615385 
+test Loss: 0.0287 Img2Txt: 0.3555  Txt2Img: 0.4417
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.48297872340425535 and Accuracy for txts = 0.48297872340425535 
+train Loss: 0.0279 Img2Txt: 0.3726  Txt2Img: 0.4607
+test
+Accuracy for imgs = 0.5042735042735044 and Accuracy for txts = 0.5726495726495727 
+test Loss: 0.0280 Img2Txt: 0.3978  Txt2Img: 0.4858
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.548936170212766 and Accuracy for txts = 0.5063829787234042 
+train Loss: 0.0268 Img2Txt: 0.4001  Txt2Img: 0.5009
+test
+Accuracy for imgs = 0.5042735042735044 and Accuracy for txts = 0.5811965811965812 
+test Loss: 0.0276 Img2Txt: 0.4058  Txt2Img: 0.5162
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6510638297872341 and Accuracy for txts = 0.5127659574468085 
+train Loss: 0.0258 Img2Txt: 0.3982  Txt2Img: 0.4953
+test
+Accuracy for imgs = 0.5213675213675214 and Accuracy for txts = 0.5897435897435898 
+test Loss: 0.0276 Img2Txt: 0.3985  Txt2Img: 0.4968
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.7000000000000001 and Accuracy for txts = 0.5361702127659574 
+train Loss: 0.0249 Img2Txt: 0.4419  Txt2Img: 0.5107
+test
+Accuracy for imgs = 0.5470085470085471 and Accuracy for txts = 0.5982905982905984 
+test Loss: 0.0269 Img2Txt: 0.4448  Txt2Img: 0.5140
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7425531914893617 and Accuracy for txts = 0.5361702127659574 
+train Loss: 0.0243 Img2Txt: 0.4560  Txt2Img: 0.5295
+test
+Accuracy for imgs = 0.5726495726495727 and Accuracy for txts = 0.6153846153846154 
+test Loss: 0.0266 Img2Txt: 0.4590  Txt2Img: 0.5321
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.8042553191489362 and Accuracy for txts = 0.5723404255319149 
+train Loss: 0.0234 Img2Txt: 0.4637  Txt2Img: 0.5231
+test
+Accuracy for imgs = 0.5726495726495727 and Accuracy for txts = 0.6324786324786326 
+test Loss: 0.0271 Img2Txt: 0.4940  Txt2Img: 0.5358
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.8191489361702128 and Accuracy for txts = 0.574468085106383 
+train Loss: 0.0229 Img2Txt: 0.4903  Txt2Img: 0.5239
+test
+Accuracy for imgs = 0.5641025641025642 and Accuracy for txts = 0.6153846153846154 
+test Loss: 0.0266 Img2Txt: 0.5010  Txt2Img: 0.5489
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8638297872340426 and Accuracy for txts = 0.5893617021276596 
+train Loss: 0.0220 Img2Txt: 0.5173  Txt2Img: 0.5538
+test
+Accuracy for imgs = 0.6153846153846154 and Accuracy for txts = 0.623931623931624 
+test Loss: 0.0262 Img2Txt: 0.5187  Txt2Img: 0.5527
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8936170212765958 and Accuracy for txts = 0.597872340425532 
+train Loss: 0.0215 Img2Txt: 0.5013  Txt2Img: 0.5453
+test
+Accuracy for imgs = 0.5982905982905984 and Accuracy for txts = 0.623931623931624 
+test Loss: 0.0259 Img2Txt: 0.5185  Txt2Img: 0.5596
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9127659574468086 and Accuracy for txts = 0.6127659574468085 
+train Loss: 0.0207 Img2Txt: 0.5119  Txt2Img: 0.5489
+test
+Accuracy for imgs = 0.623931623931624 and Accuracy for txts = 0.6410256410256411 
+test Loss: 0.0260 Img2Txt: 0.5379  Txt2Img: 0.5660
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9404255319148936 and Accuracy for txts = 0.6276595744680851 
+train Loss: 0.0199 Img2Txt: 0.5210  Txt2Img: 0.5467
+test
+Accuracy for imgs = 0.5982905982905984 and Accuracy for txts = 0.623931623931624 
+test Loss: 0.0259 Img2Txt: 0.5409  Txt2Img: 0.5678
+
+Training complete in 27m 46s
+Best average mAP: 0.554339
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2874  Txt2Img: 0.2382 Avg_mAP: 0.2628
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3445  Txt2Img: 0.3482 Avg_mAP: 0.3463
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3026  Txt2Img: 0.2635 Avg_mAP: 0.2831
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2425  Txt2Img: 0.2232 Avg_mAP: 0.2328
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.4104  Txt2Img: 0.4041 Avg_mAP: 0.4073
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.6267  Txt2Img: 0.6254 Avg_mAP: 0.6261
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.5409  Txt2Img: 0.5678 Avg_mAP: 0.5543
+Testing Done...............
+Selected dataset for training is 8..........
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Training for dataset 8 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.08176100628930819 and Accuracy for txts = 0.1069182389937107 
+train Loss: 0.0363 Img2Txt: 0.2499  Txt2Img: 0.2152
+test
+Accuracy for imgs = 0.3277310924369748 and Accuracy for txts = 0.3949579831932773 
+test Loss: 0.0311 Img2Txt: 0.3016  Txt2Img: 0.2439
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.29559748427672955 and Accuracy for txts = 0.29140461215932917 
+train Loss: 0.0313 Img2Txt: 0.3558  Txt2Img: 0.3382
+test
+Accuracy for imgs = 0.4789915966386554 and Accuracy for txts = 0.5546218487394958 
+test Loss: 0.0286 Img2Txt: 0.4198  Txt2Img: 0.3298
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.4025157232704403 and Accuracy for txts = 0.48846960167714887 
+train Loss: 0.0292 Img2Txt: 0.4487  Txt2Img: 0.4101
+test
+Accuracy for imgs = 0.6302521008403361 and Accuracy for txts = 0.6386554621848739 
+test Loss: 0.0274 Img2Txt: 0.5029  Txt2Img: 0.4199
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.5345911949685535 and Accuracy for txts = 0.59958071278826 
+train Loss: 0.0272 Img2Txt: 0.5153  Txt2Img: 0.4888
+test
+Accuracy for imgs = 0.6386554621848739 and Accuracy for txts = 0.7310924369747899 
+test Loss: 0.0271 Img2Txt: 0.5510  Txt2Img: 0.4923
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.6519916142557652 and Accuracy for txts = 0.6624737945492662 
+train Loss: 0.0254 Img2Txt: 0.5782  Txt2Img: 0.5399
+test
+Accuracy for imgs = 0.6386554621848739 and Accuracy for txts = 0.7310924369747899 
+test Loss: 0.0258 Img2Txt: 0.5851  Txt2Img: 0.5646
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.7484276729559749 and Accuracy for txts = 0.7148846960167715 
+train Loss: 0.0239 Img2Txt: 0.5912  Txt2Img: 0.5842
+test
+Accuracy for imgs = 0.6638655462184874 and Accuracy for txts = 0.7310924369747899 
+test Loss: 0.0261 Img2Txt: 0.6022  Txt2Img: 0.6048
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.790356394129979 and Accuracy for txts = 0.7337526205450734 
+train Loss: 0.0226 Img2Txt: 0.6208  Txt2Img: 0.6266
+test
+Accuracy for imgs = 0.6638655462184874 and Accuracy for txts = 0.7563025210084033 
+test Loss: 0.0254 Img2Txt: 0.6236  Txt2Img: 0.6466
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.8658280922431866 and Accuracy for txts = 0.7505241090146751 
+train Loss: 0.0215 Img2Txt: 0.6010  Txt2Img: 0.6068
+test
+Accuracy for imgs = 0.6638655462184874 and Accuracy for txts = 0.7478991596638656 
+test Loss: 0.0241 Img2Txt: 0.6240  Txt2Img: 0.6447
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.8721174004192873 and Accuracy for txts = 0.7568134171907758 
+train Loss: 0.0205 Img2Txt: 0.6399  Txt2Img: 0.6400
+test
+Accuracy for imgs = 0.6722689075630252 and Accuracy for txts = 0.7478991596638656 
+test Loss: 0.0251 Img2Txt: 0.6477  Txt2Img: 0.6734
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.9161425576519917 and Accuracy for txts = 0.7777777777777778 
+train Loss: 0.0196 Img2Txt: 0.6263  Txt2Img: 0.6443
+test
+Accuracy for imgs = 0.680672268907563 and Accuracy for txts = 0.7563025210084033 
+test Loss: 0.0246 Img2Txt: 0.6527  Txt2Img: 0.6757
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.9308176100628931 and Accuracy for txts = 0.7756813417190777 
+train Loss: 0.0186 Img2Txt: 0.6376  Txt2Img: 0.6445
+test
+Accuracy for imgs = 0.680672268907563 and Accuracy for txts = 0.7731092436974789 
+test Loss: 0.0241 Img2Txt: 0.6641  Txt2Img: 0.6893
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.9559748427672956 and Accuracy for txts = 0.7987421383647799 
+train Loss: 0.0178 Img2Txt: 0.6019  Txt2Img: 0.6184
+test
+Accuracy for imgs = 0.6470588235294117 and Accuracy for txts = 0.7647058823529411 
+test Loss: 0.0237 Img2Txt: 0.6479  Txt2Img: 0.6756
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9559748427672956 and Accuracy for txts = 0.8071278825995808 
+train Loss: 0.0175 Img2Txt: 0.6394  Txt2Img: 0.6487
+test
+Accuracy for imgs = 0.6890756302521008 and Accuracy for txts = 0.7731092436974789 
+test Loss: 0.0232 Img2Txt: 0.6682  Txt2Img: 0.6944
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9664570230607967 and Accuracy for txts = 0.8176100628930818 
+train Loss: 0.0164 Img2Txt: 0.6500  Txt2Img: 0.6578
+test
+Accuracy for imgs = 0.7058823529411764 and Accuracy for txts = 0.7731092436974789 
+test Loss: 0.0230 Img2Txt: 0.6743  Txt2Img: 0.6930
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.979035639412998 and Accuracy for txts = 0.8134171907756814 
+train Loss: 0.0158 Img2Txt: 0.6602  Txt2Img: 0.6637
+test
+Accuracy for imgs = 0.7058823529411764 and Accuracy for txts = 0.7815126050420168 
+test Loss: 0.0231 Img2Txt: 0.6792  Txt2Img: 0.7045
+
+Training complete in 27m 49s
+Best average mAP: 0.691859
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.3668  Txt2Img: 0.3315 Avg_mAP: 0.3491
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3296  Txt2Img: 0.3109 Avg_mAP: 0.3202
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3084  Txt2Img: 0.2641 Avg_mAP: 0.2862
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2475  Txt2Img: 0.2380 Avg_mAP: 0.2428
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3912  Txt2Img: 0.4213 Avg_mAP: 0.4062
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.4637  Txt2Img: 0.4454 Avg_mAP: 0.4545
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.3990  Txt2Img: 0.4221 Avg_mAP: 0.4105
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.6792  Txt2Img: 0.7045 Avg_mAP: 0.6919
+Testing Done...............
+Selected dataset for training is 9..........
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Training for dataset 9 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.03805496828752643 and Accuracy for txts = 0.03594080338266385 
+train Loss: 0.0387 Img2Txt: 0.2502  Txt2Img: 0.2133
+test
+Accuracy for imgs = 0.31092436974789917 and Accuracy for txts = 0.14285714285714285 
+test Loss: 0.0325 Img2Txt: 0.2308  Txt2Img: 0.2320
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.27061310782241016 and Accuracy for txts = 0.14799154334038056 
+train Loss: 0.0324 Img2Txt: 0.3852  Txt2Img: 0.2811
+test
+Accuracy for imgs = 0.5294117647058824 and Accuracy for txts = 0.49579831932773105 
+test Loss: 0.0286 Img2Txt: 0.3756  Txt2Img: 0.3018
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.4630021141649049 and Accuracy for txts = 0.5052854122621565 
+train Loss: 0.0294 Img2Txt: 0.5149  Txt2Img: 0.4380
+test
+Accuracy for imgs = 0.6302521008403361 and Accuracy for txts = 0.6890756302521008 
+test Loss: 0.0262 Img2Txt: 0.5139  Txt2Img: 0.4616
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.5750528541226216 and Accuracy for txts = 0.6807610993657506 
+train Loss: 0.0266 Img2Txt: 0.6115  Txt2Img: 0.5976
+test
+Accuracy for imgs = 0.7563025210084033 and Accuracy for txts = 0.7310924369747899 
+test Loss: 0.0240 Img2Txt: 0.6299  Txt2Img: 0.6108
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.6828752642706132 and Accuracy for txts = 0.7547568710359408 
+train Loss: 0.0240 Img2Txt: 0.6852  Txt2Img: 0.6763
+test
+Accuracy for imgs = 0.8487394957983193 and Accuracy for txts = 0.7731092436974789 
+test Loss: 0.0223 Img2Txt: 0.7082  Txt2Img: 0.6938
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.7420718816067654 and Accuracy for txts = 0.799154334038055 
+train Loss: 0.0220 Img2Txt: 0.7393  Txt2Img: 0.7460
+test
+Accuracy for imgs = 0.8739495798319328 and Accuracy for txts = 0.8067226890756303 
+test Loss: 0.0208 Img2Txt: 0.7712  Txt2Img: 0.7529
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.8287526427061311 and Accuracy for txts = 0.8477801268498943 
+train Loss: 0.0202 Img2Txt: 0.7864  Txt2Img: 0.7714
+test
+Accuracy for imgs = 0.8907563025210083 and Accuracy for txts = 0.8403361344537815 
+test Loss: 0.0204 Img2Txt: 0.8260  Txt2Img: 0.7820
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.8731501057082452 and Accuracy for txts = 0.864693446088795 
+train Loss: 0.0189 Img2Txt: 0.7869  Txt2Img: 0.7759
+test
+Accuracy for imgs = 0.8991596638655461 and Accuracy for txts = 0.8571428571428571 
+test Loss: 0.0206 Img2Txt: 0.8374  Txt2Img: 0.8038
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.9175475687103595 and Accuracy for txts = 0.890063424947146 
+train Loss: 0.0175 Img2Txt: 0.8287  Txt2Img: 0.8205
+test
+Accuracy for imgs = 0.8823529411764706 and Accuracy for txts = 0.8655462184873949 
+test Loss: 0.0197 Img2Txt: 0.8570  Txt2Img: 0.8290
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.9344608879492601 and Accuracy for txts = 0.9027484143763214 
+train Loss: 0.0166 Img2Txt: 0.8388  Txt2Img: 0.8268
+test
+Accuracy for imgs = 0.8739495798319328 and Accuracy for txts = 0.8907563025210083 
+test Loss: 0.0196 Img2Txt: 0.8628  Txt2Img: 0.8369
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.9471458773784356 and Accuracy for txts = 0.9133192389006343 
+train Loss: 0.0157 Img2Txt: 0.8546  Txt2Img: 0.8469
+test
+Accuracy for imgs = 0.9159663865546218 and Accuracy for txts = 0.8907563025210083 
+test Loss: 0.0186 Img2Txt: 0.8839  Txt2Img: 0.8585
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.9746300211416491 and Accuracy for txts = 0.9217758985200846 
+train Loss: 0.0150 Img2Txt: 0.8686  Txt2Img: 0.8569
+test
+Accuracy for imgs = 0.907563025210084 and Accuracy for txts = 0.907563025210084 
+test Loss: 0.0184 Img2Txt: 0.8818  Txt2Img: 0.8531
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9830866807610994 and Accuracy for txts = 0.9260042283298098 
+train Loss: 0.0144 Img2Txt: 0.8419  Txt2Img: 0.8399
+test
+Accuracy for imgs = 0.8991596638655461 and Accuracy for txts = 0.907563025210084 
+test Loss: 0.0182 Img2Txt: 0.8768  Txt2Img: 0.8636
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9873150105708246 and Accuracy for txts = 0.9302325581395349 
+train Loss: 0.0138 Img2Txt: 0.8639  Txt2Img: 0.8528
+test
+Accuracy for imgs = 0.9243697478991596 and Accuracy for txts = 0.9243697478991596 
+test Loss: 0.0176 Img2Txt: 0.8921  Txt2Img: 0.8747
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9873150105708246 and Accuracy for txts = 0.9323467230443975 
+train Loss: 0.0133 Img2Txt: 0.8571  Txt2Img: 0.8709
+test
+Accuracy for imgs = 0.8991596638655461 and Accuracy for txts = 0.9159663865546218 
+test Loss: 0.0177 Img2Txt: 0.8666  Txt2Img: 0.8805
+
+Training complete in 28m 0s
+Best average mAP: 0.883366
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2632  Txt2Img: 0.2303 Avg_mAP: 0.2468
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3945  Txt2Img: 0.3876 Avg_mAP: 0.3911
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.1952  Txt2Img: 0.1816 Avg_mAP: 0.1884
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2065  Txt2Img: 0.1938 Avg_mAP: 0.2001
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.5046  Txt2Img: 0.4727 Avg_mAP: 0.4887
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.4624  Txt2Img: 0.4182 Avg_mAP: 0.4403
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.3760  Txt2Img: 0.3664 Avg_mAP: 0.3712
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.4485  Txt2Img: 0.4315 Avg_mAP: 0.4400
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.8666  Txt2Img: 0.8805 Avg_mAP: 0.8736
+Testing Done...............
+Selected dataset for training is 10..........
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Training for dataset 10 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.08368200836820083 and Accuracy for txts = 0.1527196652719665 
+train Loss: 0.0357 Img2Txt: 0.3031  Txt2Img: 0.2953
+test
+Accuracy for imgs = 0.26666666666666666 and Accuracy for txts = 0.4083333333333333 
+test Loss: 0.0301 Img2Txt: 0.3685  Txt2Img: 0.2983
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.303347280334728 and Accuracy for txts = 0.4267782426778242 
+train Loss: 0.0301 Img2Txt: 0.4828  Txt2Img: 0.4410
+test
+Accuracy for imgs = 0.5 and Accuracy for txts = 0.6 
+test Loss: 0.0265 Img2Txt: 0.5214  Txt2Img: 0.4452
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.43305439330543927 and Accuracy for txts = 0.5983263598326359 
+train Loss: 0.0273 Img2Txt: 0.5652  Txt2Img: 0.5231
+test
+Accuracy for imgs = 0.6 and Accuracy for txts = 0.675 
+test Loss: 0.0255 Img2Txt: 0.5978  Txt2Img: 0.5456
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.5439330543933054 and Accuracy for txts = 0.6715481171548117 
+train Loss: 0.0251 Img2Txt: 0.6249  Txt2Img: 0.5766
+test
+Accuracy for imgs = 0.6333333333333333 and Accuracy for txts = 0.6916666666666667 
+test Loss: 0.0245 Img2Txt: 0.6478  Txt2Img: 0.5988
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.6297071129707112 and Accuracy for txts = 0.6903765690376569 
+train Loss: 0.0233 Img2Txt: 0.6568  Txt2Img: 0.6203
+test
+Accuracy for imgs = 0.6666666666666666 and Accuracy for txts = 0.6833333333333333 
+test Loss: 0.0245 Img2Txt: 0.6776  Txt2Img: 0.6323
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.7259414225941422 and Accuracy for txts = 0.7154811715481171 
+train Loss: 0.0218 Img2Txt: 0.6740  Txt2Img: 0.6376
+test
+Accuracy for imgs = 0.6666666666666666 and Accuracy for txts = 0.7083333333333334 
+test Loss: 0.0231 Img2Txt: 0.6947  Txt2Img: 0.6640
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.7719665271966527 and Accuracy for txts = 0.7301255230125523 
+train Loss: 0.0208 Img2Txt: 0.6993  Txt2Img: 0.6768
+test
+Accuracy for imgs = 0.6583333333333333 and Accuracy for txts = 0.7583333333333333 
+test Loss: 0.0235 Img2Txt: 0.7147  Txt2Img: 0.6929
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.7928870292887029 and Accuracy for txts = 0.7468619246861924 
+train Loss: 0.0197 Img2Txt: 0.6904  Txt2Img: 0.6745
+test
+Accuracy for imgs = 0.7 and Accuracy for txts = 0.7583333333333333 
+test Loss: 0.0222 Img2Txt: 0.7098  Txt2Img: 0.7012
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.8263598326359832 and Accuracy for txts = 0.7447698744769874 
+train Loss: 0.0189 Img2Txt: 0.6965  Txt2Img: 0.6780
+test
+Accuracy for imgs = 0.6916666666666667 and Accuracy for txts = 0.7916666666666666 
+test Loss: 0.0227 Img2Txt: 0.7155  Txt2Img: 0.7008
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.8619246861924685 and Accuracy for txts = 0.7594142259414225 
+train Loss: 0.0181 Img2Txt: 0.7090  Txt2Img: 0.7007
+test
+Accuracy for imgs = 0.725 and Accuracy for txts = 0.7916666666666666 
+test Loss: 0.0218 Img2Txt: 0.7269  Txt2Img: 0.7215
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.8849372384937237 and Accuracy for txts = 0.7677824267782426 
+train Loss: 0.0171 Img2Txt: 0.7140  Txt2Img: 0.7117
+test
+Accuracy for imgs = 0.7083333333333334 and Accuracy for txts = 0.8166666666666667 
+test Loss: 0.0216 Img2Txt: 0.7385  Txt2Img: 0.7239
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.899581589958159 and Accuracy for txts = 0.7887029288702928 
+train Loss: 0.0169 Img2Txt: 0.7157  Txt2Img: 0.7122
+test
+Accuracy for imgs = 0.7166666666666667 and Accuracy for txts = 0.8166666666666667 
+test Loss: 0.0215 Img2Txt: 0.7455  Txt2Img: 0.7230
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.907949790794979 and Accuracy for txts = 0.7928870292887029 
+train Loss: 0.0163 Img2Txt: 0.7248  Txt2Img: 0.7098
+test
+Accuracy for imgs = 0.7166666666666667 and Accuracy for txts = 0.825 
+test Loss: 0.0211 Img2Txt: 0.7448  Txt2Img: 0.7266
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.918410041841004 and Accuracy for txts = 0.811715481171548 
+train Loss: 0.0156 Img2Txt: 0.7334  Txt2Img: 0.7365
+test
+Accuracy for imgs = 0.7333333333333333 and Accuracy for txts = 0.8333333333333334 
+test Loss: 0.0215 Img2Txt: 0.7498  Txt2Img: 0.7438
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9456066945606694 and Accuracy for txts = 0.8263598326359832 
+train Loss: 0.0151 Img2Txt: 0.7384  Txt2Img: 0.7338
+test
+Accuracy for imgs = 0.725 and Accuracy for txts = 0.8333333333333334 
+test Loss: 0.0198 Img2Txt: 0.7543  Txt2Img: 0.7468
+
+Training complete in 28m 18s
+Best average mAP: 0.750533
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2814  Txt2Img: 0.2305 Avg_mAP: 0.2559
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3834  Txt2Img: 0.3304 Avg_mAP: 0.3569
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3810  Txt2Img: 0.3413 Avg_mAP: 0.3612
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2301  Txt2Img: 0.2163 Avg_mAP: 0.2232
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3878  Txt2Img: 0.3555 Avg_mAP: 0.3717
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.3949  Txt2Img: 0.3398 Avg_mAP: 0.3674
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2495  Txt2Img: 0.2238 Avg_mAP: 0.2367
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.3015  Txt2Img: 0.2331 Avg_mAP: 0.2673
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.5038  Txt2Img: 0.4823 Avg_mAP: 0.4931
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.7543  Txt2Img: 0.7468 Avg_mAP: 0.7505
+Testing Done...............
+Selected dataset for training is 11..........
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Training for dataset 11 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.0824295010845987 and Accuracy for txts = 0.09978308026030369 
+train Loss: 0.0377 Img2Txt: 0.3468  Txt2Img: 0.2942
+test
+Accuracy for imgs = 0.1896551724137931 and Accuracy for txts = 0.27586206896551724 
+test Loss: 0.0327 Img2Txt: 0.4106  Txt2Img: 0.3164
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.21691973969631237 and Accuracy for txts = 0.3080260303687636 
+train Loss: 0.0326 Img2Txt: 0.4293  Txt2Img: 0.3250
+test
+Accuracy for imgs = 0.3189655172413793 and Accuracy for txts = 0.5862068965517241 
+test Loss: 0.0294 Img2Txt: 0.4846  Txt2Img: 0.3545
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.33405639913232105 and Accuracy for txts = 0.5531453362255966 
+train Loss: 0.0300 Img2Txt: 0.4916  Txt2Img: 0.4264
+test
+Accuracy for imgs = 0.47413793103448276 and Accuracy for txts = 0.7327586206896551 
+test Loss: 0.0279 Img2Txt: 0.5463  Txt2Img: 0.4570
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.46637744034707157 and Accuracy for txts = 0.6984815618221258 
+train Loss: 0.0280 Img2Txt: 0.5967  Txt2Img: 0.5432
+test
+Accuracy for imgs = 0.6551724137931034 and Accuracy for txts = 0.7413793103448276 
+test Loss: 0.0252 Img2Txt: 0.6556  Txt2Img: 0.6092
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.5639913232104121 and Accuracy for txts = 0.752711496746204 
+train Loss: 0.0260 Img2Txt: 0.6687  Txt2Img: 0.6492
+test
+Accuracy for imgs = 0.7241379310344828 and Accuracy for txts = 0.7844827586206896 
+test Loss: 0.0239 Img2Txt: 0.7055  Txt2Img: 0.6818
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.6681127982646421 and Accuracy for txts = 0.7809110629067245 
+train Loss: 0.0238 Img2Txt: 0.7047  Txt2Img: 0.6965
+test
+Accuracy for imgs = 0.7586206896551724 and Accuracy for txts = 0.8189655172413793 
+test Loss: 0.0227 Img2Txt: 0.7453  Txt2Img: 0.7247
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.752711496746204 and Accuracy for txts = 0.8026030368763558 
+train Loss: 0.0220 Img2Txt: 0.7406  Txt2Img: 0.7147
+test
+Accuracy for imgs = 0.8103448275862069 and Accuracy for txts = 0.8362068965517241 
+test Loss: 0.0221 Img2Txt: 0.7734  Txt2Img: 0.7426
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.7874186550976139 and Accuracy for txts = 0.8221258134490239 
+train Loss: 0.0209 Img2Txt: 0.7150  Txt2Img: 0.7124
+test
+Accuracy for imgs = 0.7758620689655172 and Accuracy for txts = 0.853448275862069 
+test Loss: 0.0213 Img2Txt: 0.7681  Txt2Img: 0.7585
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.8524945770065077 and Accuracy for txts = 0.841648590021692 
+train Loss: 0.0198 Img2Txt: 0.7578  Txt2Img: 0.7449
+test
+Accuracy for imgs = 0.8017241379310345 and Accuracy for txts = 0.853448275862069 
+test Loss: 0.0220 Img2Txt: 0.7846  Txt2Img: 0.7674
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.8806941431670282 and Accuracy for txts = 0.8568329718004338 
+train Loss: 0.0186 Img2Txt: 0.7670  Txt2Img: 0.7571
+test
+Accuracy for imgs = 0.8275862068965517 and Accuracy for txts = 0.8793103448275862 
+test Loss: 0.0208 Img2Txt: 0.7962  Txt2Img: 0.7754
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.9219088937093276 and Accuracy for txts = 0.8633405639913232 
+train Loss: 0.0177 Img2Txt: 0.7624  Txt2Img: 0.7605
+test
+Accuracy for imgs = 0.8275862068965517 and Accuracy for txts = 0.8879310344827586 
+test Loss: 0.0216 Img2Txt: 0.8000  Txt2Img: 0.7898
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.9327548806941431 and Accuracy for txts = 0.8741865509761388 
+train Loss: 0.0171 Img2Txt: 0.7579  Txt2Img: 0.7598
+test
+Accuracy for imgs = 0.8189655172413793 and Accuracy for txts = 0.8793103448275862 
+test Loss: 0.0216 Img2Txt: 0.8014  Txt2Img: 0.7903
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.9501084598698482 and Accuracy for txts = 0.8872017353579176 
+train Loss: 0.0166 Img2Txt: 0.7799  Txt2Img: 0.7712
+test
+Accuracy for imgs = 0.7931034482758621 and Accuracy for txts = 0.8793103448275862 
+test Loss: 0.0209 Img2Txt: 0.7988  Txt2Img: 0.7945
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9609544468546638 and Accuracy for txts = 0.8893709327548808 
+train Loss: 0.0158 Img2Txt: 0.7649  Txt2Img: 0.7711
+test
+Accuracy for imgs = 0.7931034482758621 and Accuracy for txts = 0.8706896551724138 
+test Loss: 0.0199 Img2Txt: 0.8129  Txt2Img: 0.8069
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9761388286334056 and Accuracy for txts = 0.8915401301518439 
+train Loss: 0.0153 Img2Txt: 0.7618  Txt2Img: 0.7635
+test
+Accuracy for imgs = 0.8017241379310345 and Accuracy for txts = 0.8793103448275862 
+test Loss: 0.0205 Img2Txt: 0.8005  Txt2Img: 0.7929
+
+Training complete in 26m 38s
+Best average mAP: 0.809910
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.3516  Txt2Img: 0.3172 Avg_mAP: 0.3344
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3128  Txt2Img: 0.3074 Avg_mAP: 0.3101
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.4191  Txt2Img: 0.4036 Avg_mAP: 0.4114
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2449  Txt2Img: 0.2435 Avg_mAP: 0.2442
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3996  Txt2Img: 0.3718 Avg_mAP: 0.3857
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.4030  Txt2Img: 0.3592 Avg_mAP: 0.3811
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.3178  Txt2Img: 0.3018 Avg_mAP: 0.3098
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2969  Txt2Img: 0.2380 Avg_mAP: 0.2674
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.4387  Txt2Img: 0.3986 Avg_mAP: 0.4187
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.5302  Txt2Img: 0.5528 Avg_mAP: 0.5415
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.8005  Txt2Img: 0.7929 Avg_mAP: 0.7967
+Testing Done...............
+Selected dataset for training is 12..........
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Training for dataset 12 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.07249466950959488 and Accuracy for txts = 0.09168443496801705 
+train Loss: 0.0366 Img2Txt: 0.1617  Txt2Img: 0.1764
+test
+Accuracy for imgs = 0.2033898305084746 and Accuracy for txts = 0.2542372881355932 
+test Loss: 0.0327 Img2Txt: 0.1713  Txt2Img: 0.1673
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.19616204690831557 and Accuracy for txts = 0.208955223880597 
+train Loss: 0.0331 Img2Txt: 0.1848  Txt2Img: 0.2031
+test
+Accuracy for imgs = 0.2542372881355932 and Accuracy for txts = 0.3389830508474576 
+test Loss: 0.0314 Img2Txt: 0.1991  Txt2Img: 0.2003
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.2942430703624733 and Accuracy for txts = 0.2857142857142857 
+train Loss: 0.0316 Img2Txt: 0.2147  Txt2Img: 0.2259
+test
+Accuracy for imgs = 0.2966101694915254 and Accuracy for txts = 0.3983050847457627 
+test Loss: 0.0307 Img2Txt: 0.2277  Txt2Img: 0.2214
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.35607675906183367 and Accuracy for txts = 0.34968017057569295 
+train Loss: 0.0306 Img2Txt: 0.2312  Txt2Img: 0.2361
+test
+Accuracy for imgs = 0.3389830508474576 and Accuracy for txts = 0.423728813559322 
+test Loss: 0.0303 Img2Txt: 0.2529  Txt2Img: 0.2333
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.4562899786780384 and Accuracy for txts = 0.3667377398720682 
+train Loss: 0.0297 Img2Txt: 0.2525  Txt2Img: 0.2632
+test
+Accuracy for imgs = 0.3474576271186441 and Accuracy for txts = 0.4576271186440678 
+test Loss: 0.0298 Img2Txt: 0.2789  Txt2Img: 0.2667
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5138592750533049 and Accuracy for txts = 0.4115138592750533 
+train Loss: 0.0288 Img2Txt: 0.2732  Txt2Img: 0.2987
+test
+Accuracy for imgs = 0.3728813559322034 and Accuracy for txts = 0.4745762711864407 
+test Loss: 0.0294 Img2Txt: 0.3039  Txt2Img: 0.2860
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.5778251599147122 and Accuracy for txts = 0.43496801705756927 
+train Loss: 0.0279 Img2Txt: 0.3000  Txt2Img: 0.3219
+test
+Accuracy for imgs = 0.4322033898305085 and Accuracy for txts = 0.4661016949152542 
+test Loss: 0.0289 Img2Txt: 0.3324  Txt2Img: 0.3211
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.650319829424307 and Accuracy for txts = 0.464818763326226 
+train Loss: 0.0271 Img2Txt: 0.3220  Txt2Img: 0.3288
+test
+Accuracy for imgs = 0.4491525423728814 and Accuracy for txts = 0.4915254237288136 
+test Loss: 0.0285 Img2Txt: 0.3457  Txt2Img: 0.3308
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7292110874200426 and Accuracy for txts = 0.4989339019189765 
+train Loss: 0.0262 Img2Txt: 0.3303  Txt2Img: 0.3259
+test
+Accuracy for imgs = 0.4491525423728814 and Accuracy for txts = 0.5 
+test Loss: 0.0282 Img2Txt: 0.3628  Txt2Img: 0.3509
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.7611940298507462 and Accuracy for txts = 0.5159914712153518 
+train Loss: 0.0254 Img2Txt: 0.3476  Txt2Img: 0.3386
+test
+Accuracy for imgs = 0.4406779661016949 and Accuracy for txts = 0.5084745762711864 
+test Loss: 0.0281 Img2Txt: 0.3710  Txt2Img: 0.3557
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.7910447761194029 and Accuracy for txts = 0.5266524520255863 
+train Loss: 0.0246 Img2Txt: 0.3575  Txt2Img: 0.3632
+test
+Accuracy for imgs = 0.4830508474576271 and Accuracy for txts = 0.5169491525423728 
+test Loss: 0.0278 Img2Txt: 0.3795  Txt2Img: 0.3754
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8230277185501066 and Accuracy for txts = 0.5437100213219616 
+train Loss: 0.0239 Img2Txt: 0.3566  Txt2Img: 0.3693
+test
+Accuracy for imgs = 0.4915254237288136 and Accuracy for txts = 0.5084745762711864 
+test Loss: 0.0277 Img2Txt: 0.3886  Txt2Img: 0.3821
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8614072494669509 and Accuracy for txts = 0.55863539445629 
+train Loss: 0.0231 Img2Txt: 0.3575  Txt2Img: 0.3553
+test
+Accuracy for imgs = 0.4576271186440678 and Accuracy for txts = 0.5084745762711864 
+test Loss: 0.0277 Img2Txt: 0.4027  Txt2Img: 0.3915
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8933901918976546 and Accuracy for txts = 0.5778251599147122 
+train Loss: 0.0225 Img2Txt: 0.3562  Txt2Img: 0.3626
+test
+Accuracy for imgs = 0.4830508474576271 and Accuracy for txts = 0.5169491525423728 
+test Loss: 0.0276 Img2Txt: 0.3977  Txt2Img: 0.3965
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9232409381663113 and Accuracy for txts = 0.5906183368869936 
+train Loss: 0.0219 Img2Txt: 0.3499  Txt2Img: 0.3571
+test
+Accuracy for imgs = 0.5084745762711864 and Accuracy for txts = 0.5084745762711864 
+test Loss: 0.0275 Img2Txt: 0.3903  Txt2Img: 0.3994
+
+Training complete in 27m 17s
+Best average mAP: 0.397110
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2232  Txt2Img: 0.1962 Avg_mAP: 0.2097
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3316  Txt2Img: 0.2886 Avg_mAP: 0.3101
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3212  Txt2Img: 0.2861 Avg_mAP: 0.3036
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2241  Txt2Img: 0.2086 Avg_mAP: 0.2163
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3972  Txt2Img: 0.3562 Avg_mAP: 0.3767
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.3638  Txt2Img: 0.3469 Avg_mAP: 0.3553
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2619  Txt2Img: 0.2551 Avg_mAP: 0.2585
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2233  Txt2Img: 0.1925 Avg_mAP: 0.2079
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.3587  Txt2Img: 0.3156 Avg_mAP: 0.3371
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.4078  Txt2Img: 0.3660 Avg_mAP: 0.3869
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.5543  Txt2Img: 0.5259 Avg_mAP: 0.5401
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.3903  Txt2Img: 0.3994 Avg_mAP: 0.3948
+Testing Done...............
+Selected dataset for training is 13..........
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Training for dataset 13 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.09433962264150944 and Accuracy for txts = 0.10062893081761007 
+train Loss: 0.0354 Img2Txt: 0.1563  Txt2Img: 0.1573
+test
+Accuracy for imgs = 0.16666666666666666 and Accuracy for txts = 0.14166666666666666 
+test Loss: 0.0330 Img2Txt: 0.1653  Txt2Img: 0.1550
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.20545073375262055 and Accuracy for txts = 0.12578616352201258 
+train Loss: 0.0327 Img2Txt: 0.1684  Txt2Img: 0.1540
+test
+Accuracy for imgs = 0.15833333333333333 and Accuracy for txts = 0.2 
+test Loss: 0.0320 Img2Txt: 0.1804  Txt2Img: 0.1539
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.2830188679245283 and Accuracy for txts = 0.16561844863731656 
+train Loss: 0.0316 Img2Txt: 0.1817  Txt2Img: 0.1577
+test
+Accuracy for imgs = 0.175 and Accuracy for txts = 0.325 
+test Loss: 0.0314 Img2Txt: 0.2006  Txt2Img: 0.1634
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.37106918238993714 and Accuracy for txts = 0.24737945492662475 
+train Loss: 0.0307 Img2Txt: 0.2014  Txt2Img: 0.1763
+test
+Accuracy for imgs = 0.19166666666666665 and Accuracy for txts = 0.36666666666666664 
+test Loss: 0.0310 Img2Txt: 0.2243  Txt2Img: 0.1755
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.43815513626834385 and Accuracy for txts = 0.3060796645702306 
+train Loss: 0.0299 Img2Txt: 0.2164  Txt2Img: 0.2018
+test
+Accuracy for imgs = 0.2 and Accuracy for txts = 0.4166666666666667 
+test Loss: 0.0307 Img2Txt: 0.2354  Txt2Img: 0.1931
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5094339622641509 and Accuracy for txts = 0.3647798742138365 
+train Loss: 0.0292 Img2Txt: 0.2103  Txt2Img: 0.1888
+test
+Accuracy for imgs = 0.23333333333333334 and Accuracy for txts = 0.4166666666666667 
+test Loss: 0.0303 Img2Txt: 0.2401  Txt2Img: 0.2108
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6016771488469602 and Accuracy for txts = 0.389937106918239 
+train Loss: 0.0283 Img2Txt: 0.2240  Txt2Img: 0.2248
+test
+Accuracy for imgs = 0.25 and Accuracy for txts = 0.44166666666666665 
+test Loss: 0.0299 Img2Txt: 0.2491  Txt2Img: 0.2245
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.6121593291404612 and Accuracy for txts = 0.41509433962264153 
+train Loss: 0.0276 Img2Txt: 0.2235  Txt2Img: 0.2236
+test
+Accuracy for imgs = 0.275 and Accuracy for txts = 0.4666666666666667 
+test Loss: 0.0297 Img2Txt: 0.2497  Txt2Img: 0.2323
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.6771488469601677 and Accuracy for txts = 0.44654088050314467 
+train Loss: 0.0269 Img2Txt: 0.2286  Txt2Img: 0.2314
+test
+Accuracy for imgs = 0.2916666666666667 and Accuracy for txts = 0.525 
+test Loss: 0.0295 Img2Txt: 0.2563  Txt2Img: 0.2440
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.7421383647798743 and Accuracy for txts = 0.46121593291404617 
+train Loss: 0.0261 Img2Txt: 0.2333  Txt2Img: 0.2249
+test
+Accuracy for imgs = 0.3416666666666667 and Accuracy for txts = 0.525 
+test Loss: 0.0294 Img2Txt: 0.2613  Txt2Img: 0.2494
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.7421383647798743 and Accuracy for txts = 0.4675052410901468 
+train Loss: 0.0255 Img2Txt: 0.2390  Txt2Img: 0.2381
+test
+Accuracy for imgs = 0.325 and Accuracy for txts = 0.525 
+test Loss: 0.0293 Img2Txt: 0.2720  Txt2Img: 0.2559
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.7924528301886793 and Accuracy for txts = 0.48427672955974843 
+train Loss: 0.0250 Img2Txt: 0.2657  Txt2Img: 0.2465
+test
+Accuracy for imgs = 0.3333333333333333 and Accuracy for txts = 0.525 
+test Loss: 0.0291 Img2Txt: 0.2830  Txt2Img: 0.2584
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8259958071278827 and Accuracy for txts = 0.4947589098532495 
+train Loss: 0.0244 Img2Txt: 0.2562  Txt2Img: 0.2503
+test
+Accuracy for imgs = 0.3333333333333333 and Accuracy for txts = 0.5333333333333333 
+test Loss: 0.0291 Img2Txt: 0.2754  Txt2Img: 0.2590
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8343815513626834 and Accuracy for txts = 0.5052410901467506 
+train Loss: 0.0239 Img2Txt: 0.2554  Txt2Img: 0.2442
+test
+Accuracy for imgs = 0.35833333333333334 and Accuracy for txts = 0.5333333333333333 
+test Loss: 0.0290 Img2Txt: 0.2840  Txt2Img: 0.2641
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.859538784067086 and Accuracy for txts = 0.5178197064989518 
+train Loss: 0.0233 Img2Txt: 0.2502  Txt2Img: 0.2684
+test
+Accuracy for imgs = 0.36666666666666664 and Accuracy for txts = 0.525 
+test Loss: 0.0287 Img2Txt: 0.2930  Txt2Img: 0.2750
+
+Training complete in 28m 4s
+Best average mAP: 0.283999
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2170  Txt2Img: 0.2273 Avg_mAP: 0.2222
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3274  Txt2Img: 0.2630 Avg_mAP: 0.2952
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3170  Txt2Img: 0.2948 Avg_mAP: 0.3059
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.1795  Txt2Img: 0.1493 Avg_mAP: 0.1644
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.2958  Txt2Img: 0.2768 Avg_mAP: 0.2863
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.3311  Txt2Img: 0.3065 Avg_mAP: 0.3188
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2453  Txt2Img: 0.1872 Avg_mAP: 0.2163
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2161  Txt2Img: 0.1707 Avg_mAP: 0.1934
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.3331  Txt2Img: 0.3026 Avg_mAP: 0.3179
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.4020  Txt2Img: 0.3034 Avg_mAP: 0.3527
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.5070  Txt2Img: 0.4524 Avg_mAP: 0.4797
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.2117  Txt2Img: 0.2106 Avg_mAP: 0.2111
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.2930  Txt2Img: 0.2750 Avg_mAP: 0.2840
+Testing Done...............
+Selected dataset for training is 14..........
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Training for dataset 14 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.07098121085594988 and Accuracy for txts = 0.13987473903966596 
+train Loss: 0.0357 Img2Txt: 0.1900  Txt2Img: 0.1833
+test
+Accuracy for imgs = 0.24166666666666667 and Accuracy for txts = 0.45 
+test Loss: 0.0305 Img2Txt: 0.2427  Txt2Img: 0.2134
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.2171189979123173 and Accuracy for txts = 0.3820459290187891 
+train Loss: 0.0308 Img2Txt: 0.2698  Txt2Img: 0.2988
+test
+Accuracy for imgs = 0.3416666666666667 and Accuracy for txts = 0.625 
+test Loss: 0.0277 Img2Txt: 0.3187  Txt2Img: 0.3019
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.33402922755741127 and Accuracy for txts = 0.569937369519833 
+train Loss: 0.0282 Img2Txt: 0.3866  Txt2Img: 0.3781
+test
+Accuracy for imgs = 0.4166666666666667 and Accuracy for txts = 0.725 
+test Loss: 0.0259 Img2Txt: 0.4134  Txt2Img: 0.3691
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.43841336116910223 and Accuracy for txts = 0.6701461377870563 
+train Loss: 0.0263 Img2Txt: 0.4317  Txt2Img: 0.4140
+test
+Accuracy for imgs = 0.43333333333333335 and Accuracy for txts = 0.7916666666666666 
+test Loss: 0.0249 Img2Txt: 0.4652  Txt2Img: 0.4234
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.5386221294363256 and Accuracy for txts = 0.707724425887265 
+train Loss: 0.0246 Img2Txt: 0.4860  Txt2Img: 0.4729
+test
+Accuracy for imgs = 0.5 and Accuracy for txts = 0.7833333333333333 
+test Loss: 0.0244 Img2Txt: 0.5281  Txt2Img: 0.4905
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.6346555323590813 and Accuracy for txts = 0.7244258872651357 
+train Loss: 0.0233 Img2Txt: 0.5065  Txt2Img: 0.5118
+test
+Accuracy for imgs = 0.5083333333333333 and Accuracy for txts = 0.825 
+test Loss: 0.0239 Img2Txt: 0.5426  Txt2Img: 0.5058
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6931106471816283 and Accuracy for txts = 0.7640918580375782 
+train Loss: 0.0220 Img2Txt: 0.5469  Txt2Img: 0.5346
+test
+Accuracy for imgs = 0.5583333333333333 and Accuracy for txts = 0.8666666666666667 
+test Loss: 0.0234 Img2Txt: 0.5943  Txt2Img: 0.5865
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.7578288100208768 and Accuracy for txts = 0.7724425887265135 
+train Loss: 0.0210 Img2Txt: 0.5599  Txt2Img: 0.5656
+test
+Accuracy for imgs = 0.6083333333333333 and Accuracy for txts = 0.8583333333333333 
+test Loss: 0.0228 Img2Txt: 0.6056  Txt2Img: 0.5984
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.8204592901878913 and Accuracy for txts = 0.7912317327766178 
+train Loss: 0.0199 Img2Txt: 0.6088  Txt2Img: 0.6408
+test
+Accuracy for imgs = 0.6 and Accuracy for txts = 0.875 
+test Loss: 0.0224 Img2Txt: 0.6300  Txt2Img: 0.6396
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.8225469728601251 and Accuracy for txts = 0.8037578288100208 
+train Loss: 0.0191 Img2Txt: 0.6139  Txt2Img: 0.6431
+test
+Accuracy for imgs = 0.675 and Accuracy for txts = 0.875 
+test Loss: 0.0221 Img2Txt: 0.6428  Txt2Img: 0.6583
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.8601252609603339 and Accuracy for txts = 0.8141962421711899 
+train Loss: 0.0185 Img2Txt: 0.6308  Txt2Img: 0.6477
+test
+Accuracy for imgs = 0.6666666666666666 and Accuracy for txts = 0.8833333333333333 
+test Loss: 0.0220 Img2Txt: 0.6548  Txt2Img: 0.6830
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8726513569937369 and Accuracy for txts = 0.8308977035490605 
+train Loss: 0.0177 Img2Txt: 0.6511  Txt2Img: 0.6896
+test
+Accuracy for imgs = 0.65 and Accuracy for txts = 0.875 
+test Loss: 0.0230 Img2Txt: 0.6755  Txt2Img: 0.6982
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8935281837160751 and Accuracy for txts = 0.8308977035490605 
+train Loss: 0.0171 Img2Txt: 0.6705  Txt2Img: 0.6799
+test
+Accuracy for imgs = 0.7333333333333333 and Accuracy for txts = 0.875 
+test Loss: 0.0207 Img2Txt: 0.6950  Txt2Img: 0.7127
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.9102296450939457 and Accuracy for txts = 0.8413361169102296 
+train Loss: 0.0164 Img2Txt: 0.6614  Txt2Img: 0.6964
+test
+Accuracy for imgs = 0.75 and Accuracy for txts = 0.875 
+test Loss: 0.0213 Img2Txt: 0.7031  Txt2Img: 0.7305
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.9248434237995824 and Accuracy for txts = 0.8413361169102296 
+train Loss: 0.0160 Img2Txt: 0.6751  Txt2Img: 0.6778
+test
+Accuracy for imgs = 0.7 and Accuracy for txts = 0.875 
+test Loss: 0.0211 Img2Txt: 0.7022  Txt2Img: 0.7176
+
+Training complete in 28m 25s
+Best average mAP: 0.716774
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2753  Txt2Img: 0.2627 Avg_mAP: 0.2690
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3539  Txt2Img: 0.3341 Avg_mAP: 0.3440
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.2947  Txt2Img: 0.2510 Avg_mAP: 0.2729
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2141  Txt2Img: 0.2039 Avg_mAP: 0.2090
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3552  Txt2Img: 0.3352 Avg_mAP: 0.3452
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.2750  Txt2Img: 0.2417 Avg_mAP: 0.2583
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2488  Txt2Img: 0.2302 Avg_mAP: 0.2395
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2179  Txt2Img: 0.1752 Avg_mAP: 0.1966
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.3167  Txt2Img: 0.3016 Avg_mAP: 0.3092
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.3995  Txt2Img: 0.3166 Avg_mAP: 0.3581
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.5136  Txt2Img: 0.4163 Avg_mAP: 0.4650
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.2430  Txt2Img: 0.2237 Avg_mAP: 0.2333
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.1628  Txt2Img: 0.1607 Avg_mAP: 0.1618
+Testing Done...............
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Testing on test dataset of dataset 14......................
+mAP on test set of dataset 14 -->  Img2Txt: 0.7022  Txt2Img: 0.7176 Avg_mAP: 0.7099
+Testing Done...............
+Selected dataset for training is 15..........
+Starting preparing dataloader for dataset 15............
+Done preparing dataloader for dataset 15
+Training for dataset 15 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.05439330543933054 and Accuracy for txts = 0.0020920502092050207 
+train Loss: 0.0382 Img2Txt: 0.1976  Txt2Img: 0.1881
+test
+Accuracy for imgs = 0.1680672268907563 and Accuracy for txts = 0.11764705882352941 
+test Loss: 0.0338 Img2Txt: 0.2200  Txt2Img: 0.1792
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.21548117154811713 and Accuracy for txts = 0.07740585774058577 
+train Loss: 0.0328 Img2Txt: 0.2395  Txt2Img: 0.1976
+test
+Accuracy for imgs = 0.26050420168067223 and Accuracy for txts = 0.36974789915966383 
+test Loss: 0.0308 Img2Txt: 0.2689  Txt2Img: 0.2116
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.32426778242677823 and Accuracy for txts = 0.28661087866108786 
+train Loss: 0.0301 Img2Txt: 0.2835  Txt2Img: 0.2362
+test
+Accuracy for imgs = 0.31932773109243695 and Accuracy for txts = 0.42857142857142855 
+test Loss: 0.0294 Img2Txt: 0.3038  Txt2Img: 0.2744
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.403765690376569 and Accuracy for txts = 0.38912133891213385 
+train Loss: 0.0286 Img2Txt: 0.3096  Txt2Img: 0.2621
+test
+Accuracy for imgs = 0.31092436974789917 and Accuracy for txts = 0.5042016806722689 
+test Loss: 0.0288 Img2Txt: 0.3329  Txt2Img: 0.3123
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.4811715481171548 and Accuracy for txts = 0.4539748953974895 
+train Loss: 0.0273 Img2Txt: 0.3350  Txt2Img: 0.2803
+test
+Accuracy for imgs = 0.36974789915966383 and Accuracy for txts = 0.5546218487394958 
+test Loss: 0.0282 Img2Txt: 0.3609  Txt2Img: 0.3493
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5523012552301255 and Accuracy for txts = 0.48744769874476984 
+train Loss: 0.0262 Img2Txt: 0.3776  Txt2Img: 0.3367
+test
+Accuracy for imgs = 0.3949579831932773 and Accuracy for txts = 0.5462184873949579 
+test Loss: 0.0277 Img2Txt: 0.3914  Txt2Img: 0.3711
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6171548117154811 and Accuracy for txts = 0.5104602510460251 
+train Loss: 0.0252 Img2Txt: 0.3856  Txt2Img: 0.3357
+test
+Accuracy for imgs = 0.42857142857142855 and Accuracy for txts = 0.5630252100840336 
+test Loss: 0.0273 Img2Txt: 0.4049  Txt2Img: 0.3901
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.6527196652719665 and Accuracy for txts = 0.5313807531380753 
+train Loss: 0.0244 Img2Txt: 0.4139  Txt2Img: 0.3746
+test
+Accuracy for imgs = 0.4789915966386554 and Accuracy for txts = 0.5714285714285714 
+test Loss: 0.0271 Img2Txt: 0.4255  Txt2Img: 0.4093
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.6945606694560669 and Accuracy for txts = 0.5418410041841004 
+train Loss: 0.0238 Img2Txt: 0.4172  Txt2Img: 0.3786
+test
+Accuracy for imgs = 0.4621848739495798 and Accuracy for txts = 0.5714285714285714 
+test Loss: 0.0271 Img2Txt: 0.4363  Txt2Img: 0.4289
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.7238493723849372 and Accuracy for txts = 0.5669456066945606 
+train Loss: 0.0228 Img2Txt: 0.4360  Txt2Img: 0.4162
+test
+Accuracy for imgs = 0.48739495798319327 and Accuracy for txts = 0.5882352941176471 
+test Loss: 0.0263 Img2Txt: 0.4490  Txt2Img: 0.4439
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.7615062761506276 and Accuracy for txts = 0.5815899581589957 
+train Loss: 0.0221 Img2Txt: 0.4497  Txt2Img: 0.4117
+test
+Accuracy for imgs = 0.5126050420168067 and Accuracy for txts = 0.6050420168067226 
+test Loss: 0.0265 Img2Txt: 0.4583  Txt2Img: 0.4511
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.7740585774058577 and Accuracy for txts = 0.6025104602510459 
+train Loss: 0.0214 Img2Txt: 0.4596  Txt2Img: 0.4394
+test
+Accuracy for imgs = 0.5210084033613445 and Accuracy for txts = 0.6134453781512604 
+test Loss: 0.0259 Img2Txt: 0.4726  Txt2Img: 0.4624
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8033472803347279 and Accuracy for txts = 0.6025104602510459 
+train Loss: 0.0208 Img2Txt: 0.4717  Txt2Img: 0.4608
+test
+Accuracy for imgs = 0.5294117647058824 and Accuracy for txts = 0.6218487394957983 
+test Loss: 0.0255 Img2Txt: 0.4871  Txt2Img: 0.4849
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8368200836820083 and Accuracy for txts = 0.6171548117154811 
+train Loss: 0.0202 Img2Txt: 0.4744  Txt2Img: 0.4571
+test
+Accuracy for imgs = 0.5294117647058824 and Accuracy for txts = 0.6386554621848739 
+test Loss: 0.0254 Img2Txt: 0.4854  Txt2Img: 0.4761
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.8389121338912133 and Accuracy for txts = 0.6276150627615062 
+train Loss: 0.0196 Img2Txt: 0.4796  Txt2Img: 0.4594
+test
+Accuracy for imgs = 0.5210084033613445 and Accuracy for txts = 0.6386554621848739 
+test Loss: 0.0253 Img2Txt: 0.4911  Txt2Img: 0.4898
+
+Training complete in 28m 10s
+Best average mAP: 0.490440
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2847  Txt2Img: 0.2528 Avg_mAP: 0.2687
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3324  Txt2Img: 0.2927 Avg_mAP: 0.3126
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.3044  Txt2Img: 0.2525 Avg_mAP: 0.2785
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2324  Txt2Img: 0.1839 Avg_mAP: 0.2082
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3170  Txt2Img: 0.2773 Avg_mAP: 0.2972
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.2687  Txt2Img: 0.2279 Avg_mAP: 0.2483
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2590  Txt2Img: 0.2254 Avg_mAP: 0.2422
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2533  Txt2Img: 0.2246 Avg_mAP: 0.2390
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.3110  Txt2Img: 0.2637 Avg_mAP: 0.2874
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.3199  Txt2Img: 0.2566 Avg_mAP: 0.2882
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.3874  Txt2Img: 0.3360 Avg_mAP: 0.3617
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.2218  Txt2Img: 0.1875 Avg_mAP: 0.2046
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.1752  Txt2Img: 0.1608 Avg_mAP: 0.1680
+Testing Done...............
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Testing on test dataset of dataset 14......................
+mAP on test set of dataset 14 -->  Img2Txt: 0.4055  Txt2Img: 0.3418 Avg_mAP: 0.3736
+Testing Done...............
+Starting preparing dataloader for dataset 15............
+Done preparing dataloader for dataset 15
+Testing on test dataset of dataset 15......................
+mAP on test set of dataset 15 -->  Img2Txt: 0.4911  Txt2Img: 0.4898 Avg_mAP: 0.4904
+Testing Done...............
+Selected dataset for training is 16..........
+Starting preparing dataloader for dataset 16............
+Done preparing dataloader for dataset 16
+Training for dataset 16 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.08085106382978724 and Accuracy for txts = 0.055319148936170216 
+train Loss: 0.0361 Img2Txt: 0.2054  Txt2Img: 0.1670
+test
+Accuracy for imgs = 0.2033898305084746 and Accuracy for txts = 0.2627118644067797 
+test Loss: 0.0324 Img2Txt: 0.2063  Txt2Img: 0.1628
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.16595744680851063 and Accuracy for txts = 0.24680851063829787 
+train Loss: 0.0321 Img2Txt: 0.2188  Txt2Img: 0.1830
+test
+Accuracy for imgs = 0.2542372881355932 and Accuracy for txts = 0.5254237288135594 
+test Loss: 0.0304 Img2Txt: 0.2485  Txt2Img: 0.1822
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.2957446808510638 and Accuracy for txts = 0.44042553191489364 
+train Loss: 0.0304 Img2Txt: 0.2889  Txt2Img: 0.2097
+test
+Accuracy for imgs = 0.3135593220338983 and Accuracy for txts = 0.5254237288135594 
+test Loss: 0.0291 Img2Txt: 0.3055  Txt2Img: 0.2024
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.3468085106382979 and Accuracy for txts = 0.5212765957446809 
+train Loss: 0.0291 Img2Txt: 0.2822  Txt2Img: 0.2694
+test
+Accuracy for imgs = 0.3813559322033898 and Accuracy for txts = 0.5677966101694916 
+test Loss: 0.0280 Img2Txt: 0.3093  Txt2Img: 0.2699
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.4106382978723404 and Accuracy for txts = 0.5617021276595745 
+train Loss: 0.0279 Img2Txt: 0.3316  Txt2Img: 0.3209
+test
+Accuracy for imgs = 0.3728813559322034 and Accuracy for txts = 0.576271186440678 
+test Loss: 0.0275 Img2Txt: 0.3503  Txt2Img: 0.3116
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.48723404255319147 and Accuracy for txts = 0.5957446808510638 
+train Loss: 0.0269 Img2Txt: 0.3500  Txt2Img: 0.3558
+test
+Accuracy for imgs = 0.4067796610169492 and Accuracy for txts = 0.6101694915254238 
+test Loss: 0.0270 Img2Txt: 0.3621  Txt2Img: 0.3467
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.5276595744680851 and Accuracy for txts = 0.6297872340425532 
+train Loss: 0.0260 Img2Txt: 0.3721  Txt2Img: 0.3461
+test
+Accuracy for imgs = 0.3983050847457627 and Accuracy for txts = 0.6271186440677966 
+test Loss: 0.0270 Img2Txt: 0.3974  Txt2Img: 0.3625
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.6 and Accuracy for txts = 0.6638297872340425 
+train Loss: 0.0252 Img2Txt: 0.3767  Txt2Img: 0.3719
+test
+Accuracy for imgs = 0.4406779661016949 and Accuracy for txts = 0.635593220338983 
+test Loss: 0.0264 Img2Txt: 0.4150  Txt2Img: 0.3841
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.6425531914893617 and Accuracy for txts = 0.6829787234042554 
+train Loss: 0.0245 Img2Txt: 0.3955  Txt2Img: 0.3848
+test
+Accuracy for imgs = 0.4491525423728814 and Accuracy for txts = 0.6440677966101694 
+test Loss: 0.0262 Img2Txt: 0.4283  Txt2Img: 0.4001
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.7170212765957447 and Accuracy for txts = 0.6957446808510639 
+train Loss: 0.0237 Img2Txt: 0.4109  Txt2Img: 0.3911
+test
+Accuracy for imgs = 0.4830508474576271 and Accuracy for txts = 0.6694915254237288 
+test Loss: 0.0261 Img2Txt: 0.4374  Txt2Img: 0.4180
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.7297872340425532 and Accuracy for txts = 0.7042553191489361 
+train Loss: 0.0229 Img2Txt: 0.4259  Txt2Img: 0.4039
+test
+Accuracy for imgs = 0.5 and Accuracy for txts = 0.6694915254237288 
+test Loss: 0.0258 Img2Txt: 0.4511  Txt2Img: 0.4359
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.774468085106383 and Accuracy for txts = 0.7085106382978723 
+train Loss: 0.0223 Img2Txt: 0.3984  Txt2Img: 0.3989
+test
+Accuracy for imgs = 0.4915254237288136 and Accuracy for txts = 0.6864406779661016 
+test Loss: 0.0258 Img2Txt: 0.4450  Txt2Img: 0.4404
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8191489361702128 and Accuracy for txts = 0.723404255319149 
+train Loss: 0.0217 Img2Txt: 0.4169  Txt2Img: 0.4099
+test
+Accuracy for imgs = 0.4915254237288136 and Accuracy for txts = 0.6949152542372882 
+test Loss: 0.0258 Img2Txt: 0.4490  Txt2Img: 0.4431
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8297872340425532 and Accuracy for txts = 0.7319148936170213 
+train Loss: 0.0211 Img2Txt: 0.4231  Txt2Img: 0.4264
+test
+Accuracy for imgs = 0.4830508474576271 and Accuracy for txts = 0.6864406779661016 
+test Loss: 0.0257 Img2Txt: 0.4570  Txt2Img: 0.4584
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.874468085106383 and Accuracy for txts = 0.7404255319148936 
+train Loss: 0.0205 Img2Txt: 0.4243  Txt2Img: 0.4307
+test
+Accuracy for imgs = 0.4915254237288136 and Accuracy for txts = 0.7033898305084746 
+test Loss: 0.0253 Img2Txt: 0.4561  Txt2Img: 0.4533
+
+Training complete in 27m 42s
+Best average mAP: 0.457699
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2889  Txt2Img: 0.2305 Avg_mAP: 0.2597
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.2324  Txt2Img: 0.2109 Avg_mAP: 0.2217
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.2698  Txt2Img: 0.2648 Avg_mAP: 0.2673
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.1989  Txt2Img: 0.2000 Avg_mAP: 0.1995
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3553  Txt2Img: 0.3006 Avg_mAP: 0.3279
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.3146  Txt2Img: 0.2951 Avg_mAP: 0.3048
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2296  Txt2Img: 0.2071 Avg_mAP: 0.2184
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2066  Txt2Img: 0.2240 Avg_mAP: 0.2153
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.2853  Txt2Img: 0.2437 Avg_mAP: 0.2645
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.3018  Txt2Img: 0.2451 Avg_mAP: 0.2735
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.3326  Txt2Img: 0.2604 Avg_mAP: 0.2965
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.1996  Txt2Img: 0.1723 Avg_mAP: 0.1860
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.1761  Txt2Img: 0.1637 Avg_mAP: 0.1699
+Testing Done...............
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Testing on test dataset of dataset 14......................
+mAP on test set of dataset 14 -->  Img2Txt: 0.3850  Txt2Img: 0.3427 Avg_mAP: 0.3639
+Testing Done...............
+Starting preparing dataloader for dataset 15............
+Done preparing dataloader for dataset 15
+Testing on test dataset of dataset 15......................
+mAP on test set of dataset 15 -->  Img2Txt: 0.3097  Txt2Img: 0.3111 Avg_mAP: 0.3104
+Testing Done...............
+Starting preparing dataloader for dataset 16............
+Done preparing dataloader for dataset 16
+Testing on test dataset of dataset 16......................
+mAP on test set of dataset 16 -->  Img2Txt: 0.4561  Txt2Img: 0.4533 Avg_mAP: 0.4547
+Testing Done...............
+Selected dataset for training is 17..........
+Starting preparing dataloader for dataset 17............
+Done preparing dataloader for dataset 17
+Training for dataset 17 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.09853249475890986 and Accuracy for txts = 0.1069182389937107 
+train Loss: 0.0365 Img2Txt: 0.1947  Txt2Img: 0.1793
+test
+Accuracy for imgs = 0.20833333333333334 and Accuracy for txts = 0.2833333333333333 
+test Loss: 0.0317 Img2Txt: 0.2104  Txt2Img: 0.1713
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.24528301886792453 and Accuracy for txts = 0.23270440251572327 
+train Loss: 0.0318 Img2Txt: 0.2441  Txt2Img: 0.2191
+test
+Accuracy for imgs = 0.275 and Accuracy for txts = 0.5 
+test Loss: 0.0297 Img2Txt: 0.2680  Txt2Img: 0.2198
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.350104821802935 and Accuracy for txts = 0.4088050314465409 
+train Loss: 0.0298 Img2Txt: 0.2779  Txt2Img: 0.2620
+test
+Accuracy for imgs = 0.3416666666666667 and Accuracy for txts = 0.575 
+test Loss: 0.0283 Img2Txt: 0.3157  Txt2Img: 0.2670
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.4528301886792453 and Accuracy for txts = 0.4968553459119497 
+train Loss: 0.0281 Img2Txt: 0.3169  Txt2Img: 0.2680
+test
+Accuracy for imgs = 0.3833333333333333 and Accuracy for txts = 0.5916666666666667 
+test Loss: 0.0276 Img2Txt: 0.3554  Txt2Img: 0.2971
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.5241090146750524 and Accuracy for txts = 0.5576519916142558 
+train Loss: 0.0270 Img2Txt: 0.3495  Txt2Img: 0.3079
+test
+Accuracy for imgs = 0.425 and Accuracy for txts = 0.6333333333333333 
+test Loss: 0.0268 Img2Txt: 0.3788  Txt2Img: 0.3315
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.6037735849056605 and Accuracy for txts = 0.6100628930817611 
+train Loss: 0.0258 Img2Txt: 0.3507  Txt2Img: 0.3199
+test
+Accuracy for imgs = 0.425 and Accuracy for txts = 0.65 
+test Loss: 0.0264 Img2Txt: 0.3957  Txt2Img: 0.3387
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.6457023060796646 and Accuracy for txts = 0.6352201257861636 
+train Loss: 0.0249 Img2Txt: 0.3814  Txt2Img: 0.3499
+test
+Accuracy for imgs = 0.45 and Accuracy for txts = 0.6916666666666667 
+test Loss: 0.0258 Img2Txt: 0.4235  Txt2Img: 0.3633
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.7106918238993711 and Accuracy for txts = 0.6561844863731656 
+train Loss: 0.0238 Img2Txt: 0.3984  Txt2Img: 0.3788
+test
+Accuracy for imgs = 0.4583333333333333 and Accuracy for txts = 0.7166666666666667 
+test Loss: 0.0255 Img2Txt: 0.4398  Txt2Img: 0.3932
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7651991614255765 and Accuracy for txts = 0.689727463312369 
+train Loss: 0.0229 Img2Txt: 0.4165  Txt2Img: 0.3843
+test
+Accuracy for imgs = 0.45 and Accuracy for txts = 0.7583333333333333 
+test Loss: 0.0252 Img2Txt: 0.4440  Txt2Img: 0.3954
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.779874213836478 and Accuracy for txts = 0.7085953878406709 
+train Loss: 0.0221 Img2Txt: 0.4315  Txt2Img: 0.3918
+test
+Accuracy for imgs = 0.475 and Accuracy for txts = 0.7416666666666667 
+test Loss: 0.0250 Img2Txt: 0.4590  Txt2Img: 0.4025
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.8322851153039833 and Accuracy for txts = 0.7253668763102725 
+train Loss: 0.0213 Img2Txt: 0.4400  Txt2Img: 0.4045
+test
+Accuracy for imgs = 0.475 and Accuracy for txts = 0.7833333333333333 
+test Loss: 0.0246 Img2Txt: 0.4671  Txt2Img: 0.4151
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8553459119496856 and Accuracy for txts = 0.7316561844863732 
+train Loss: 0.0206 Img2Txt: 0.4179  Txt2Img: 0.3930
+test
+Accuracy for imgs = 0.48333333333333334 and Accuracy for txts = 0.7833333333333333 
+test Loss: 0.0245 Img2Txt: 0.4608  Txt2Img: 0.4144
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8700209643605871 and Accuracy for txts = 0.7442348008385745 
+train Loss: 0.0201 Img2Txt: 0.4446  Txt2Img: 0.4217
+test
+Accuracy for imgs = 0.4666666666666667 and Accuracy for txts = 0.7833333333333333 
+test Loss: 0.0243 Img2Txt: 0.4671  Txt2Img: 0.4271
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8784067085953879 and Accuracy for txts = 0.740041928721174 
+train Loss: 0.0195 Img2Txt: 0.4235  Txt2Img: 0.3945
+test
+Accuracy for imgs = 0.4583333333333333 and Accuracy for txts = 0.7916666666666666 
+test Loss: 0.0243 Img2Txt: 0.4680  Txt2Img: 0.4314
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.8867924528301887 and Accuracy for txts = 0.7631027253668764 
+train Loss: 0.0189 Img2Txt: 0.4373  Txt2Img: 0.4134
+test
+Accuracy for imgs = 0.5083333333333333 and Accuracy for txts = 0.7916666666666666 
+test Loss: 0.0240 Img2Txt: 0.4787  Txt2Img: 0.4427
+
+Training complete in 28m 6s
+Best average mAP: 0.460711
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2410  Txt2Img: 0.2110 Avg_mAP: 0.2260
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3115  Txt2Img: 0.2860 Avg_mAP: 0.2987
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.1992  Txt2Img: 0.2065 Avg_mAP: 0.2029
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.1646  Txt2Img: 0.1595 Avg_mAP: 0.1620
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3313  Txt2Img: 0.2587 Avg_mAP: 0.2950
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.2743  Txt2Img: 0.2523 Avg_mAP: 0.2633
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2598  Txt2Img: 0.2044 Avg_mAP: 0.2321
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2589  Txt2Img: 0.2237 Avg_mAP: 0.2413
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.2925  Txt2Img: 0.2745 Avg_mAP: 0.2835
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.3294  Txt2Img: 0.2681 Avg_mAP: 0.2987
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.3439  Txt2Img: 0.2789 Avg_mAP: 0.3114
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.2721  Txt2Img: 0.2156 Avg_mAP: 0.2438
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.1499  Txt2Img: 0.1446 Avg_mAP: 0.1472
+Testing Done...............
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Testing on test dataset of dataset 14......................
+mAP on test set of dataset 14 -->  Img2Txt: 0.3689  Txt2Img: 0.3128 Avg_mAP: 0.3408
+Testing Done...............
+Starting preparing dataloader for dataset 15............
+Done preparing dataloader for dataset 15
+Testing on test dataset of dataset 15......................
+mAP on test set of dataset 15 -->  Img2Txt: 0.2555  Txt2Img: 0.2470 Avg_mAP: 0.2513
+Testing Done...............
+Starting preparing dataloader for dataset 16............
+Done preparing dataloader for dataset 16
+Testing on test dataset of dataset 16......................
+mAP on test set of dataset 16 -->  Img2Txt: 0.3129  Txt2Img: 0.3149 Avg_mAP: 0.3139
+Testing Done...............
+Starting preparing dataloader for dataset 17............
+Done preparing dataloader for dataset 17
+Testing on test dataset of dataset 17......................
+mAP on test set of dataset 17 -->  Img2Txt: 0.4787  Txt2Img: 0.4427 Avg_mAP: 0.4607
+Testing Done...............
+Selected dataset for training is 18..........
+Starting preparing dataloader for dataset 18............
+Done preparing dataloader for dataset 18
+Training for dataset 18 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.09873949579831932 and Accuracy for txts = 0.021008403361344536 
+train Loss: 0.0368 Img2Txt: 0.1882  Txt2Img: 0.1693
+test
+Accuracy for imgs = 0.23529411764705882 and Accuracy for txts = 0.11764705882352941 
+test Loss: 0.0326 Img2Txt: 0.2036  Txt2Img: 0.1893
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.20378151260504201 and Accuracy for txts = 0.11974789915966386 
+train Loss: 0.0327 Img2Txt: 0.2181  Txt2Img: 0.1760
+test
+Accuracy for imgs = 0.26050420168067223 and Accuracy for txts = 0.3949579831932773 
+test Loss: 0.0311 Img2Txt: 0.2481  Txt2Img: 0.1968
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.3088235294117647 and Accuracy for txts = 0.3487394957983193 
+train Loss: 0.0308 Img2Txt: 0.2623  Txt2Img: 0.2185
+test
+Accuracy for imgs = 0.26050420168067223 and Accuracy for txts = 0.5126050420168067 
+test Loss: 0.0301 Img2Txt: 0.2891  Txt2Img: 0.2286
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.3760504201680672 and Accuracy for txts = 0.4453781512605042 
+train Loss: 0.0294 Img2Txt: 0.2610  Txt2Img: 0.2387
+test
+Accuracy for imgs = 0.26050420168067223 and Accuracy for txts = 0.5546218487394958 
+test Loss: 0.0293 Img2Txt: 0.2998  Txt2Img: 0.2670
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.4579831932773109 and Accuracy for txts = 0.5105042016806722 
+train Loss: 0.0282 Img2Txt: 0.2695  Txt2Img: 0.2715
+test
+Accuracy for imgs = 0.2857142857142857 and Accuracy for txts = 0.6134453781512604 
+test Loss: 0.0285 Img2Txt: 0.3104  Txt2Img: 0.2862
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5147058823529411 and Accuracy for txts = 0.5525210084033613 
+train Loss: 0.0271 Img2Txt: 0.2814  Txt2Img: 0.2847
+test
+Accuracy for imgs = 0.31932773109243695 and Accuracy for txts = 0.6554621848739496 
+test Loss: 0.0281 Img2Txt: 0.3222  Txt2Img: 0.3028
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.5630252100840336 and Accuracy for txts = 0.5735294117647058 
+train Loss: 0.0262 Img2Txt: 0.2974  Txt2Img: 0.2820
+test
+Accuracy for imgs = 0.3361344537815126 and Accuracy for txts = 0.680672268907563 
+test Loss: 0.0275 Img2Txt: 0.3295  Txt2Img: 0.3062
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.6239495798319328 and Accuracy for txts = 0.6008403361344538 
+train Loss: 0.0253 Img2Txt: 0.2902  Txt2Img: 0.2855
+test
+Accuracy for imgs = 0.31932773109243695 and Accuracy for txts = 0.7142857142857143 
+test Loss: 0.0271 Img2Txt: 0.3329  Txt2Img: 0.3189
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.657563025210084 and Accuracy for txts = 0.6092436974789915 
+train Loss: 0.0244 Img2Txt: 0.2793  Txt2Img: 0.2869
+test
+Accuracy for imgs = 0.3277310924369748 and Accuracy for txts = 0.7226890756302521 
+test Loss: 0.0265 Img2Txt: 0.3185  Txt2Img: 0.3345
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.6869747899159664 and Accuracy for txts = 0.6323529411764706 
+train Loss: 0.0234 Img2Txt: 0.2838  Txt2Img: 0.3040
+test
+Accuracy for imgs = 0.3445378151260504 and Accuracy for txts = 0.7142857142857143 
+test Loss: 0.0265 Img2Txt: 0.3305  Txt2Img: 0.3394
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.6995798319327731 and Accuracy for txts = 0.6491596638655462 
+train Loss: 0.0228 Img2Txt: 0.2925  Txt2Img: 0.3083
+test
+Accuracy for imgs = 0.3529411764705882 and Accuracy for txts = 0.7310924369747899 
+test Loss: 0.0259 Img2Txt: 0.3338  Txt2Img: 0.3601
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.7668067226890756 and Accuracy for txts = 0.6638655462184874 
+train Loss: 0.0220 Img2Txt: 0.3037  Txt2Img: 0.3230
+test
+Accuracy for imgs = 0.36974789915966383 and Accuracy for txts = 0.7478991596638656 
+test Loss: 0.0258 Img2Txt: 0.3391  Txt2Img: 0.3663
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.7668067226890756 and Accuracy for txts = 0.6785714285714285 
+train Loss: 0.0215 Img2Txt: 0.3162  Txt2Img: 0.3240
+test
+Accuracy for imgs = 0.36134453781512604 and Accuracy for txts = 0.7478991596638656 
+test Loss: 0.0257 Img2Txt: 0.3385  Txt2Img: 0.3613
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8067226890756303 and Accuracy for txts = 0.6890756302521008 
+train Loss: 0.0208 Img2Txt: 0.3215  Txt2Img: 0.3393
+test
+Accuracy for imgs = 0.42857142857142855 and Accuracy for txts = 0.7478991596638656 
+test Loss: 0.0255 Img2Txt: 0.3588  Txt2Img: 0.3799
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.8277310924369747 and Accuracy for txts = 0.6953781512605042 
+train Loss: 0.0203 Img2Txt: 0.3143  Txt2Img: 0.3540
+test
+Accuracy for imgs = 0.37815126050420167 and Accuracy for txts = 0.7478991596638656 
+test Loss: 0.0253 Img2Txt: 0.3536  Txt2Img: 0.3789
+
+Training complete in 28m 6s
+Best average mAP: 0.369343
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2517  Txt2Img: 0.2043 Avg_mAP: 0.2280
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.2861  Txt2Img: 0.2741 Avg_mAP: 0.2801
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.1948  Txt2Img: 0.1766 Avg_mAP: 0.1857
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.1644  Txt2Img: 0.1579 Avg_mAP: 0.1612
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.2521  Txt2Img: 0.2178 Avg_mAP: 0.2349
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.2783  Txt2Img: 0.2536 Avg_mAP: 0.2659
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.1778  Txt2Img: 0.1420 Avg_mAP: 0.1599
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2183  Txt2Img: 0.1863 Avg_mAP: 0.2023
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.2494  Txt2Img: 0.2049 Avg_mAP: 0.2272
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.2503  Txt2Img: 0.2236 Avg_mAP: 0.2370
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.2098  Txt2Img: 0.1947 Avg_mAP: 0.2023
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.1598  Txt2Img: 0.1445 Avg_mAP: 0.1521
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.1546  Txt2Img: 0.1481 Avg_mAP: 0.1514
+Testing Done...............
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Testing on test dataset of dataset 14......................
+mAP on test set of dataset 14 -->  Img2Txt: 0.3285  Txt2Img: 0.2723 Avg_mAP: 0.3004
+Testing Done...............
+Starting preparing dataloader for dataset 15............
+Done preparing dataloader for dataset 15
+Testing on test dataset of dataset 15......................
+mAP on test set of dataset 15 -->  Img2Txt: 0.2152  Txt2Img: 0.1944 Avg_mAP: 0.2048
+Testing Done...............
+Starting preparing dataloader for dataset 16............
+Done preparing dataloader for dataset 16
+Testing on test dataset of dataset 16......................
+mAP on test set of dataset 16 -->  Img2Txt: 0.2348  Txt2Img: 0.2371 Avg_mAP: 0.2360
+Testing Done...............
+Starting preparing dataloader for dataset 17............
+Done preparing dataloader for dataset 17
+Testing on test dataset of dataset 17......................
+mAP on test set of dataset 17 -->  Img2Txt: 0.3017  Txt2Img: 0.2872 Avg_mAP: 0.2945
+Testing Done...............
+Starting preparing dataloader for dataset 18............
+Done preparing dataloader for dataset 18
+Testing on test dataset of dataset 18......................
+mAP on test set of dataset 18 -->  Img2Txt: 0.3536  Txt2Img: 0.3789 Avg_mAP: 0.3662
+Testing Done...............
+Selected dataset for training is 19..........
+Starting preparing dataloader for dataset 19............
+Done preparing dataloader for dataset 19
+Training for dataset 19 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.06170212765957447 and Accuracy for txts = 0.023404255319148935 
+train Loss: 0.0377 Img2Txt: 0.1912  Txt2Img: 0.1805
+test
+Accuracy for imgs = 0.17094017094017094 and Accuracy for txts = 0.26495726495726496 
+test Loss: 0.0324 Img2Txt: 0.1928  Txt2Img: 0.1571
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.1851063829787234 and Accuracy for txts = 0.30851063829787234 
+train Loss: 0.0318 Img2Txt: 0.2110  Txt2Img: 0.2216
+test
+Accuracy for imgs = 0.2905982905982906 and Accuracy for txts = 0.6068376068376069 
+test Loss: 0.0298 Img2Txt: 0.2337  Txt2Img: 0.2432
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.33191489361702126 and Accuracy for txts = 0.548936170212766 
+train Loss: 0.0293 Img2Txt: 0.2834  Txt2Img: 0.3211
+test
+Accuracy for imgs = 0.35897435897435903 and Accuracy for txts = 0.6495726495726496 
+test Loss: 0.0278 Img2Txt: 0.3250  Txt2Img: 0.3518
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.3702127659574468 and Accuracy for txts = 0.6553191489361703 
+train Loss: 0.0275 Img2Txt: 0.3305  Txt2Img: 0.3683
+test
+Accuracy for imgs = 0.43589743589743596 and Accuracy for txts = 0.7435897435897436 
+test Loss: 0.0262 Img2Txt: 0.3979  Txt2Img: 0.4266
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.46382978723404256 and Accuracy for txts = 0.7297872340425532 
+train Loss: 0.0257 Img2Txt: 0.4244  Txt2Img: 0.4501
+test
+Accuracy for imgs = 0.5042735042735044 and Accuracy for txts = 0.7521367521367522 
+test Loss: 0.0251 Img2Txt: 0.5052  Txt2Img: 0.4900
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5319148936170213 and Accuracy for txts = 0.774468085106383 
+train Loss: 0.0243 Img2Txt: 0.4908  Txt2Img: 0.4833
+test
+Accuracy for imgs = 0.5299145299145299 and Accuracy for txts = 0.7777777777777779 
+test Loss: 0.0246 Img2Txt: 0.5327  Txt2Img: 0.5282
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.5957446808510638 and Accuracy for txts = 0.8021276595744681 
+train Loss: 0.0233 Img2Txt: 0.5149  Txt2Img: 0.5153
+test
+Accuracy for imgs = 0.5470085470085471 and Accuracy for txts = 0.8034188034188035 
+test Loss: 0.0244 Img2Txt: 0.5698  Txt2Img: 0.5523
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.6851063829787234 and Accuracy for txts = 0.8085106382978724 
+train Loss: 0.0221 Img2Txt: 0.5608  Txt2Img: 0.5441
+test
+Accuracy for imgs = 0.5641025641025642 and Accuracy for txts = 0.8034188034188035 
+test Loss: 0.0239 Img2Txt: 0.5955  Txt2Img: 0.5678
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.7191489361702128 and Accuracy for txts = 0.8085106382978724 
+train Loss: 0.0212 Img2Txt: 0.5556  Txt2Img: 0.5745
+test
+Accuracy for imgs = 0.5982905982905984 and Accuracy for txts = 0.8205128205128206 
+test Loss: 0.0232 Img2Txt: 0.6072  Txt2Img: 0.5822
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.7191489361702128 and Accuracy for txts = 0.8191489361702128 
+train Loss: 0.0207 Img2Txt: 0.5758  Txt2Img: 0.5735
+test
+Accuracy for imgs = 0.5811965811965812 and Accuracy for txts = 0.8205128205128206 
+test Loss: 0.0237 Img2Txt: 0.6211  Txt2Img: 0.5952
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.7872340425531915 and Accuracy for txts = 0.823404255319149 
+train Loss: 0.0198 Img2Txt: 0.5885  Txt2Img: 0.5955
+test
+Accuracy for imgs = 0.5811965811965812 and Accuracy for txts = 0.8376068376068377 
+test Loss: 0.0237 Img2Txt: 0.6241  Txt2Img: 0.6278
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.8085106382978724 and Accuracy for txts = 0.8340425531914893 
+train Loss: 0.0190 Img2Txt: 0.5973  Txt2Img: 0.6007
+test
+Accuracy for imgs = 0.6410256410256411 and Accuracy for txts = 0.8205128205128206 
+test Loss: 0.0224 Img2Txt: 0.6438  Txt2Img: 0.6539
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.8404255319148937 and Accuracy for txts = 0.8319148936170213 
+train Loss: 0.0186 Img2Txt: 0.5969  Txt2Img: 0.6002
+test
+Accuracy for imgs = 0.6153846153846154 and Accuracy for txts = 0.8461538461538463 
+test Loss: 0.0234 Img2Txt: 0.6592  Txt2Img: 0.6512
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8595744680851064 and Accuracy for txts = 0.8340425531914893 
+train Loss: 0.0178 Img2Txt: 0.6048  Txt2Img: 0.5996
+test
+Accuracy for imgs = 0.6068376068376069 and Accuracy for txts = 0.8376068376068377 
+test Loss: 0.0228 Img2Txt: 0.6540  Txt2Img: 0.6474
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.8851063829787235 and Accuracy for txts = 0.8446808510638298 
+train Loss: 0.0174 Img2Txt: 0.6135  Txt2Img: 0.6102
+test
+Accuracy for imgs = 0.623931623931624 and Accuracy for txts = 0.8376068376068377 
+test Loss: 0.0236 Img2Txt: 0.6535  Txt2Img: 0.6506
+
+Training complete in 28m 3s
+Best average mAP: 0.655207
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2075  Txt2Img: 0.1759 Avg_mAP: 0.1917
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.3088  Txt2Img: 0.2561 Avg_mAP: 0.2824
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.2186  Txt2Img: 0.1850 Avg_mAP: 0.2018
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.1937  Txt2Img: 0.1716 Avg_mAP: 0.1826
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3329  Txt2Img: 0.2708 Avg_mAP: 0.3019
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.2776  Txt2Img: 0.2375 Avg_mAP: 0.2575
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.2140  Txt2Img: 0.1612 Avg_mAP: 0.1876
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2235  Txt2Img: 0.2149 Avg_mAP: 0.2192
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.2839  Txt2Img: 0.2511 Avg_mAP: 0.2675
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.3027  Txt2Img: 0.2219 Avg_mAP: 0.2623
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.3916  Txt2Img: 0.2823 Avg_mAP: 0.3370
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.2161  Txt2Img: 0.1739 Avg_mAP: 0.1950
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.1587  Txt2Img: 0.1579 Avg_mAP: 0.1583
+Testing Done...............
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Testing on test dataset of dataset 14......................
+mAP on test set of dataset 14 -->  Img2Txt: 0.3403  Txt2Img: 0.2503 Avg_mAP: 0.2953
+Testing Done...............
+Starting preparing dataloader for dataset 15............
+Done preparing dataloader for dataset 15
+Testing on test dataset of dataset 15......................
+mAP on test set of dataset 15 -->  Img2Txt: 0.2080  Txt2Img: 0.1819 Avg_mAP: 0.1950
+Testing Done...............
+Starting preparing dataloader for dataset 16............
+Done preparing dataloader for dataset 16
+Testing on test dataset of dataset 16......................
+mAP on test set of dataset 16 -->  Img2Txt: 0.2520  Txt2Img: 0.2225 Avg_mAP: 0.2372
+Testing Done...............
+Starting preparing dataloader for dataset 17............
+Done preparing dataloader for dataset 17
+Testing on test dataset of dataset 17......................
+mAP on test set of dataset 17 -->  Img2Txt: 0.3105  Txt2Img: 0.2797 Avg_mAP: 0.2951
+Testing Done...............
+Starting preparing dataloader for dataset 18............
+Done preparing dataloader for dataset 18
+Testing on test dataset of dataset 18......................
+mAP on test set of dataset 18 -->  Img2Txt: 0.2371  Txt2Img: 0.2072 Avg_mAP: 0.2222
+Testing Done...............
+Starting preparing dataloader for dataset 19............
+Done preparing dataloader for dataset 19
+Testing on test dataset of dataset 19......................
+mAP on test set of dataset 19 -->  Img2Txt: 0.6535  Txt2Img: 0.6506 Avg_mAP: 0.6521
+Testing Done...............
+Selected dataset for training is 20..........
+Starting preparing dataloader for dataset 20............
+Done preparing dataloader for dataset 20
+Training for dataset 20 ..............
+Epoch 1/15
+--------------------
+train
+Accuracy for imgs = 0.08350730688935282 and Accuracy for txts = 0.050104384133611686 
+train Loss: 0.0374 Img2Txt: 0.1895  Txt2Img: 0.1810
+test
+Accuracy for imgs = 0.08333333333333333 and Accuracy for txts = 0.16666666666666666 
+test Loss: 0.0337 Img2Txt: 0.2066  Txt2Img: 0.1716
+
+Epoch 2/15
+--------------------
+train
+Accuracy for imgs = 0.18371607515657618 and Accuracy for txts = 0.22755741127348642 
+train Loss: 0.0320 Img2Txt: 0.1860  Txt2Img: 0.1648
+test
+Accuracy for imgs = 0.15833333333333333 and Accuracy for txts = 0.4666666666666667 
+test Loss: 0.0311 Img2Txt: 0.1950  Txt2Img: 0.1589
+
+Epoch 3/15
+--------------------
+train
+Accuracy for imgs = 0.2463465553235908 and Accuracy for txts = 0.3799582463465553 
+train Loss: 0.0299 Img2Txt: 0.2097  Txt2Img: 0.1980
+test
+Accuracy for imgs = 0.21666666666666667 and Accuracy for txts = 0.5416666666666666 
+test Loss: 0.0295 Img2Txt: 0.2193  Txt2Img: 0.1798
+
+Epoch 4/15
+--------------------
+train
+Accuracy for imgs = 0.32359081419624214 and Accuracy for txts = 0.4926931106471816 
+train Loss: 0.0283 Img2Txt: 0.2391  Txt2Img: 0.2342
+test
+Accuracy for imgs = 0.2916666666666667 and Accuracy for txts = 0.5583333333333333 
+test Loss: 0.0284 Img2Txt: 0.2617  Txt2Img: 0.2093
+
+Epoch 5/15
+--------------------
+train
+Accuracy for imgs = 0.43215031315240077 and Accuracy for txts = 0.5281837160751566 
+train Loss: 0.0270 Img2Txt: 0.3023  Txt2Img: 0.3184
+test
+Accuracy for imgs = 0.3833333333333333 and Accuracy for txts = 0.5666666666666667 
+test Loss: 0.0275 Img2Txt: 0.3410  Txt2Img: 0.2877
+
+Epoch 6/15
+--------------------
+train
+Accuracy for imgs = 0.5093945720250521 and Accuracy for txts = 0.5615866388308977 
+train Loss: 0.0260 Img2Txt: 0.3645  Txt2Img: 0.3557
+test
+Accuracy for imgs = 0.425 and Accuracy for txts = 0.575 
+test Loss: 0.0267 Img2Txt: 0.4133  Txt2Img: 0.3535
+
+Epoch 7/15
+--------------------
+train
+Accuracy for imgs = 0.5845511482254697 and Accuracy for txts = 0.5762004175365344 
+train Loss: 0.0251 Img2Txt: 0.4286  Txt2Img: 0.4313
+test
+Accuracy for imgs = 0.4666666666666667 and Accuracy for txts = 0.5833333333333334 
+test Loss: 0.0263 Img2Txt: 0.4408  Txt2Img: 0.3962
+
+Epoch 8/15
+--------------------
+train
+Accuracy for imgs = 0.6450939457202505 and Accuracy for txts = 0.5949895615866387 
+train Loss: 0.0241 Img2Txt: 0.4741  Txt2Img: 0.4332
+test
+Accuracy for imgs = 0.48333333333333334 and Accuracy for txts = 0.5916666666666667 
+test Loss: 0.0258 Img2Txt: 0.4734  Txt2Img: 0.4212
+
+Epoch 9/15
+--------------------
+train
+Accuracy for imgs = 0.6993736951983298 and Accuracy for txts = 0.6054279749478079 
+train Loss: 0.0232 Img2Txt: 0.4965  Txt2Img: 0.4773
+test
+Accuracy for imgs = 0.55 and Accuracy for txts = 0.6166666666666667 
+test Loss: 0.0252 Img2Txt: 0.5002  Txt2Img: 0.4680
+
+Epoch 10/15
+--------------------
+train
+Accuracy for imgs = 0.7473903966597076 and Accuracy for txts = 0.6263048016701461 
+train Loss: 0.0223 Img2Txt: 0.4926  Txt2Img: 0.4668
+test
+Accuracy for imgs = 0.6 and Accuracy for txts = 0.625 
+test Loss: 0.0248 Img2Txt: 0.5114  Txt2Img: 0.4721
+
+Epoch 11/15
+--------------------
+train
+Accuracy for imgs = 0.7703549060542797 and Accuracy for txts = 0.6325678496868475 
+train Loss: 0.0219 Img2Txt: 0.5342  Txt2Img: 0.4892
+test
+Accuracy for imgs = 0.6 and Accuracy for txts = 0.6166666666666667 
+test Loss: 0.0248 Img2Txt: 0.5246  Txt2Img: 0.4925
+
+Epoch 12/15
+--------------------
+train
+Accuracy for imgs = 0.7954070981210856 and Accuracy for txts = 0.6409185803757829 
+train Loss: 0.0211 Img2Txt: 0.5364  Txt2Img: 0.5171
+test
+Accuracy for imgs = 0.6 and Accuracy for txts = 0.625 
+test Loss: 0.0243 Img2Txt: 0.5404  Txt2Img: 0.4997
+
+Epoch 13/15
+--------------------
+train
+Accuracy for imgs = 0.824634655532359 and Accuracy for txts = 0.6555323590814196 
+train Loss: 0.0206 Img2Txt: 0.5284  Txt2Img: 0.5335
+test
+Accuracy for imgs = 0.6333333333333333 and Accuracy for txts = 0.6333333333333333 
+test Loss: 0.0244 Img2Txt: 0.5376  Txt2Img: 0.5184
+
+Epoch 14/15
+--------------------
+train
+Accuracy for imgs = 0.8413361169102296 and Accuracy for txts = 0.6576200417536534 
+train Loss: 0.0200 Img2Txt: 0.5653  Txt2Img: 0.5404
+test
+Accuracy for imgs = 0.6333333333333333 and Accuracy for txts = 0.65 
+test Loss: 0.0240 Img2Txt: 0.5656  Txt2Img: 0.5159
+
+Epoch 15/15
+--------------------
+train
+Accuracy for imgs = 0.8663883089770354 and Accuracy for txts = 0.6701461377870563 
+train Loss: 0.0194 Img2Txt: 0.5387  Txt2Img: 0.5489
+test
+Accuracy for imgs = 0.6416666666666666 and Accuracy for txts = 0.65 
+test Loss: 0.0235 Img2Txt: 0.5595  Txt2Img: 0.5441
+
+Training complete in 28m 54s
+Best average mAP: 0.551835
+Starting testing on datasets trained till now..............
+Starting preparing dataloader for dataset 1............
+Done preparing dataloader for dataset 1
+Testing on test dataset of dataset 1......................
+mAP on test set of dataset 1 -->  Img2Txt: 0.2319  Txt2Img: 0.1773 Avg_mAP: 0.2046
+Testing Done...............
+Starting preparing dataloader for dataset 2............
+Done preparing dataloader for dataset 2
+Testing on test dataset of dataset 2......................
+mAP on test set of dataset 2 -->  Img2Txt: 0.2967  Txt2Img: 0.2182 Avg_mAP: 0.2574
+Testing Done...............
+Starting preparing dataloader for dataset 3............
+Done preparing dataloader for dataset 3
+Testing on test dataset of dataset 3......................
+mAP on test set of dataset 3 -->  Img2Txt: 0.2386  Txt2Img: 0.2013 Avg_mAP: 0.2200
+Testing Done...............
+Starting preparing dataloader for dataset 4............
+Done preparing dataloader for dataset 4
+Testing on test dataset of dataset 4......................
+mAP on test set of dataset 4 -->  Img2Txt: 0.2402  Txt2Img: 0.1892 Avg_mAP: 0.2147
+Testing Done...............
+Starting preparing dataloader for dataset 5............
+Done preparing dataloader for dataset 5
+Testing on test dataset of dataset 5......................
+mAP on test set of dataset 5 -->  Img2Txt: 0.3033  Txt2Img: 0.2125 Avg_mAP: 0.2579
+Testing Done...............
+Starting preparing dataloader for dataset 6............
+Done preparing dataloader for dataset 6
+Testing on test dataset of dataset 6......................
+mAP on test set of dataset 6 -->  Img2Txt: 0.3397  Txt2Img: 0.2911 Avg_mAP: 0.3154
+Testing Done...............
+Starting preparing dataloader for dataset 7............
+Done preparing dataloader for dataset 7
+Testing on test dataset of dataset 7......................
+mAP on test set of dataset 7 -->  Img2Txt: 0.1836  Txt2Img: 0.1420 Avg_mAP: 0.1628
+Testing Done...............
+Starting preparing dataloader for dataset 8............
+Done preparing dataloader for dataset 8
+Testing on test dataset of dataset 8......................
+mAP on test set of dataset 8 -->  Img2Txt: 0.2675  Txt2Img: 0.2344 Avg_mAP: 0.2510
+Testing Done...............
+Starting preparing dataloader for dataset 9............
+Done preparing dataloader for dataset 9
+Testing on test dataset of dataset 9......................
+mAP on test set of dataset 9 -->  Img2Txt: 0.2436  Txt2Img: 0.2119 Avg_mAP: 0.2278
+Testing Done...............
+Starting preparing dataloader for dataset 10............
+Done preparing dataloader for dataset 10
+Testing on test dataset of dataset 10......................
+mAP on test set of dataset 10 -->  Img2Txt: 0.3622  Txt2Img: 0.3052 Avg_mAP: 0.3337
+Testing Done...............
+Starting preparing dataloader for dataset 11............
+Done preparing dataloader for dataset 11
+Testing on test dataset of dataset 11......................
+mAP on test set of dataset 11 -->  Img2Txt: 0.3796  Txt2Img: 0.2736 Avg_mAP: 0.3266
+Testing Done...............
+Starting preparing dataloader for dataset 12............
+Done preparing dataloader for dataset 12
+Testing on test dataset of dataset 12......................
+mAP on test set of dataset 12 -->  Img2Txt: 0.2078  Txt2Img: 0.1770 Avg_mAP: 0.1924
+Testing Done...............
+Starting preparing dataloader for dataset 13............
+Done preparing dataloader for dataset 13
+Testing on test dataset of dataset 13......................
+mAP on test set of dataset 13 -->  Img2Txt: 0.1663  Txt2Img: 0.1480 Avg_mAP: 0.1571
+Testing Done...............
+Starting preparing dataloader for dataset 14............
+Done preparing dataloader for dataset 14
+Testing on test dataset of dataset 14......................
+mAP on test set of dataset 14 -->  Img2Txt: 0.2897  Txt2Img: 0.2217 Avg_mAP: 0.2557
+Testing Done...............
+Starting preparing dataloader for dataset 15............
+Done preparing dataloader for dataset 15
+Testing on test dataset of dataset 15......................
+mAP on test set of dataset 15 -->  Img2Txt: 0.2479  Txt2Img: 0.2080 Avg_mAP: 0.2279
+Testing Done...............
+Starting preparing dataloader for dataset 16............
+Done preparing dataloader for dataset 16
+Testing on test dataset of dataset 16......................
+mAP on test set of dataset 16 -->  Img2Txt: 0.2514  Txt2Img: 0.1999 Avg_mAP: 0.2257
+Testing Done...............
+Starting preparing dataloader for dataset 17............
+Done preparing dataloader for dataset 17
+Testing on test dataset of dataset 17......................
+mAP on test set of dataset 17 -->  Img2Txt: 0.2730  Txt2Img: 0.2249 Avg_mAP: 0.2490
+Testing Done...............
+Starting preparing dataloader for dataset 18............
+Done preparing dataloader for dataset 18
+Testing on test dataset of dataset 18......................
+mAP on test set of dataset 18 -->  Img2Txt: 0.2262  Txt2Img: 0.1930 Avg_mAP: 0.2096
+Testing Done...............
+Starting preparing dataloader for dataset 19............
+Done preparing dataloader for dataset 19
+Testing on test dataset of dataset 19......................
+mAP on test set of dataset 19 -->  Img2Txt: 0.3743  Txt2Img: 0.3350 Avg_mAP: 0.3546
+Testing Done...............
+Starting preparing dataloader for dataset 20............
+Done preparing dataloader for dataset 20
+Testing on test dataset of dataset 20......................
+mAP on test set of dataset 20 -->  Img2Txt: 0.5595  Txt2Img: 0.5441 Avg_mAP: 0.5518
+Testing Done...............
+........................Training is completed...............................
+mAP history saved to:  ../Results/mAPs.pickle
+Plotting.............................
